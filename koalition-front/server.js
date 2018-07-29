@@ -2,7 +2,7 @@
 
 const express = require('express');
 const exphbs  = require('express-handlebars');
-const hbs = exphbs.create({ /* config */ });
+const hbs = exphbs.create( {defaultLayout: 'main'} );
 
 // Constants
 const PORT = 3000;
