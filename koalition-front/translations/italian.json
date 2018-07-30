@@ -10,6 +10,12 @@
         "confirmation": "Conferma partecipazione",
         "turist_info": "Informazioni turistiche",
         "wedding_list": "Lista Matrimonio"
-   }
-
+   },
+   
+   "contact": {
+           "for_doubts": "Per informazioni o dubbi",
+           "telephone": "Telefono",
+           "also_wa": "(Anche whatsapp)",
+           "informations_paragraph": "Per informazioni o dubbi potete contattarci direttamente via email o telefono. Vi ricontatteremo appena possible"            
+    }
 }
