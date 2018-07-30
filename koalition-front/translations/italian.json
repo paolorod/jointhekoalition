@@ -1,0 +1,15 @@
+{
+   "global": {
+            "couple": "Ariane e Paolo",
+             "date": "14 Giugno 2019"
+        },
+   "navbar": {
+        "ceremony_and_party":"Cerimonia e Festa",
+        "travelling": "Come arrivare",
+        "accomodation": "Ospitalità e Hotel",
+        "confirmation": "Conferma partecipazione",
+        "turist_info": "Informazioni turistiche",
+        "wedding_list": "Lista Matrimonio"
+   }
+
+}
