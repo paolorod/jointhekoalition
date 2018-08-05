@@ -17,5 +17,22 @@
            "telephone": "Telefono",
            "also_wa": "(Anche whatsapp)",
            "informations_paragraph": "Per informazioni o dubbi potete contattarci direttamente via email o telefono. Vi ricontatteremo appena possible"            
+    },
+
+    "cerimony": {
+           "location":"Chiostro del Museo Civico"
+    },
+
+    "confirmation": {
+        "first_name":"Nome",
+        "last_name":"Cognome",
+        "telephone":"Telefono",
+        "email":"Email",
+        "need_hostel":"Vogliamo usufruire dell'ospitalità in ostello",
+        "dinner_14":"Partecipiamo alla cena del 14 sera per gli ospiti lontani",
+        "particular-food":"Alimentazione (allergie/intolleranze, vegeteriano, kosher, halal...)",
+        "particular-mobility":"Mobilità / Ambiente (problemi di deambulazione, bisogni sulle camere...)",        
+        "particular-babies": "Esigenze specifiche legate ai bambini",
+        "message":"Messaggio per gli sposi"
     }
 }
