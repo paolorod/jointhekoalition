@@ -56,6 +56,44 @@ footer.page-footer {
   margin: 0;
 }
 
+/* Custom */
+
+@font-face {
+    font-family: a_little_sunshine;
+    src: url(/fonts/a_little_sunshine.ttf);
+}
+
+@font-face {
+  font-family: mallino;
+  src: url(/fonts/mallino.ttf);
+}
+
+@font-face {
+  font-family: loveland;
+  src: url(/fonts/loveland.ttf);
+}
+
+
+@font-face {
+  font-family: miss_kindergarden;
+  src: url(/fonts/miss_kindergarden.ttf);
+}
+
+@font-face {
+  font-family: i_love_glitter;
+  src: url(/fonts/i_love_glitter.ttf);
+}
+
+@font-face {
+  font-family: shoreline_script;
+  src: url(/fonts/shoreline_script.otf);
+}
+
+
 .anchor {
   padding-top: 56px;
+}
+
+.logo {
+  font-family: a_little_sunshine;
 }

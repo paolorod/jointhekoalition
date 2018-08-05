@@ -19,6 +19,7 @@ app.set('view engine', 'handlebars');
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/js', express.static(__dirname + '/js'));
 app.use('/images', express.static(__dirname + '/images'));
+app.use('/fonts', express.static(__dirname + '/fonts'));
 
 // A very basic translation support
 var translation = {
@@ -30,6 +31,7 @@ var translation = {
 
 
 // Methods
+// @TODO add correct translation selection logic
 app.get('/', function (req, res) {
   res.redirect("/ita")
 });
