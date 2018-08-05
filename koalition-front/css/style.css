@@ -103,3 +103,29 @@ footer.page-footer {
   border-radius: 4px;
   padding: 5px;
 }
+
+/* Rotation Properties */
+
+.rotate_l1 {
+  transform: rotate(359deg);
+} 
+
+.rotate_l5 {
+  transform: rotate(355deg);
+} 
+
+.rotate_l7 {
+  transform: rotate(353deg);
+} 
+
+.rotate_r1 {
+  transform: rotate(5deg);
+}
+
+.rotate_r4 {
+  transform: rotate(4deg);
+} 
+
+.rotate_r8 {
+  transform: rotate(8deg);
+} 
