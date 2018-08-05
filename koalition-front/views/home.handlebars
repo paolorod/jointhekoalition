@@ -26,7 +26,7 @@
   </nav>
   </div>
 
-<div class="container">
+  <div class="container">
         <div class="row center light">
           <div class="col s12 center section">
             <h1 class=" purple-text text-lighten-2 logo">{{global.couple}}</h2>
@@ -41,8 +41,6 @@
         </div>
  </div>
 
-
-
   <div class="container anchor" id="welcome">
     <div class="row">
       <div class="col s4 m4 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg"/></div>
@@ -51,11 +49,12 @@
       </div>
       <div class="col s12 m7 l7">
         <p class="flowtext grey-text text-darken-3">
+          {{welcome.dear_friends}}<br/>
           {{welcome.paragraph1}}<br/>
           {{welcome.value_paragraph}}
         </p>
         {{#each welcome.values}}
-        <p class="flowtext grey-text grey-text text-darken-3"><span class="value">{{value}}</span> - {{explanation}}</p>
+        <p class="flowtext grey-text text-darken-3"><span class="value">{{value}}</span> - {{explanation}}</p>
         {{/each}}
       </div>
     </div>
@@ -64,15 +63,30 @@
   <div class="container anchor" id="ceremony_and_party">
     <div class="row">
       <div class="col s8">
-        <h5 class="header col gray light">{{navbar.ceremony_and_party}}</h5>
+        <div class="row">
+          <h5 class="header col gray light s12">{{navbar.ceremony_and_party}}</h5>
+          <p class="flowtext grey-text text-darken-3">{{cerimony.paragraph1}}</p>
+          <div class="col s6">
+            <h6>{{cerimony.cerimony}}</h6>
+          </div>
+          <div class="col s6">
+            <h6>{{cerimony.party}}</h6>
+          </div>
+        </div>
       </div>
       <div class="col s4">
-        <img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg">
+        <img class="responsive-img polaroid rotate_r4 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg">
       </div>
 
     </div>
   </div>
 
+
+  <div class="container anchor" id="travelling">
+    <div class="section">
+        <h5 class="header col s12 gray light">{{navbar.travelling}}</h5>
+    </div>
+  </div>
 
   <div class="container anchor" id="accomodation">
     <div class="section">

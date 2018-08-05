@@ -22,7 +22,8 @@
     },
 
     "welcome": {
-        "paragraph1": "Cari amici e parenti, siamo molto felici che vogliate condividere con noi questo giorno così importante. Su questo sito abbiamo cercato di mettere tutte le informazioni per vivere al meglio insieme a noi questa giornata.",
+        "dear_friends": "Cari amici e parenti,",
+        "paragraph1": "Siamo molto felici che vogliate condividere con noi questo giorno così importante. Su questo sito abbiamo cercato di mettere tutte le informazioni per vivere al meglio insieme a noi questa giornata.",
         "value_paragraph": "Abbiamo scelto di organizzare questa giornata in modo che ci rappresenti, secondo alcuni valori importati:",
         "values": [
             {
@@ -42,12 +43,12 @@
 
     "cerimony": {
            "cerimony":"Cerimonia",
-           "festa":"Party",
+           "party":"Festa",
            "comfy_shoes":"Portatevi scarpe comode!",
            "location_ceremony":"Chiostro del Museo Civico",
            "location_party":"Villa Angaran San Giuseppe",
            "time":"10:30",
-           "paragraph1":"Ci sposiamo a Bassano del Grappa, la città natale di Paolo, con rito civile.",
+           "paragraph1":"Abbiamo scelto di sposarci a Bassano del Grappa, la città natale di Paolo, con rito civile.",
            "paragraph2":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
            "paragraph3":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
            "paragraph4":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina"
