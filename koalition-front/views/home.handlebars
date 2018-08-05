@@ -60,23 +60,51 @@
     </div>
   </div>
 
-  <div class="container anchor" id="ceremony_and_party">
-    <div class="row">
-      <div class="col s8">
+ <div class="container anchor" id="ceremony_and_party">
         <div class="row">
           <h5 class="header col gray light s12">{{navbar.ceremony_and_party}}</h5>
-          <p class="flowtext grey-text text-darken-3">{{cerimony.paragraph1}}</p>
-          <div class="col s6">
-            <h6>{{cerimony.cerimony}}</h6>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img class="polaroid" src="/images/PhotoPaoloAriane-1.jpg">
+                <span class="card-title">{{cerimony.cerimony}}</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">info_outline</i></a>
+              </div>
+              <div class="card-content">
+                <p>{{cerimony.ceremony_desc}}</p>
+              </div>
+              <div class="card-action">
+                <a href="">Come arrivare</a>
+              </div>
+            </div>
           </div>
-          <div class="col s6">
-            <h6>{{cerimony.party}}</h6>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image">
+                <img class="polaroid" src="/images/PhotoPaoloAriane-1.jpg">
+                <span class="card-title">{{cerimony.party}}</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">info_outline</i></a>
+              </div>
+              <div class="card-content">
+                <p>{{cerimony.party_desc}}</p>
+              </div>
+              <div class="card-action">
+                <a href="">Come arrivare</a>
+              </div>
+            </div>
           </div>
         </div>
+        <div class='row'>
+            <div class="col s12">
+             <p class="flowtext">{{cerimony.paragraph1}}</p>
+             <p class="flowtext">{{cerimony.paragraph2}}</p>
+            </div>
+        </div>
       </div>
-      <div class="col s4">
-        <img class="responsive-img polaroid rotate_r4 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg">
-      </div>
+</div>
+    
 
     </div>
   </div>

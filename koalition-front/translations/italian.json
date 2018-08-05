@@ -48,10 +48,10 @@
            "location_ceremony":"Chiostro del Museo Civico",
            "location_party":"Villa Angaran San Giuseppe",
            "time":"10:30",
-           "paragraph1":"Abbiamo scelto di sposarci a Bassano del Grappa, la città natale di Paolo, con rito civile.",
-           "paragraph2":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
-           "paragraph3":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
-           "paragraph4":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina"
+           "ceremony_desc":"Ci sposiamo con rito civile davanti all'entrata del museo civico.",
+           "party_desc":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
+           "paragraph1":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
+           "paragraph2":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina"
         },
     
     "confirmation": {
