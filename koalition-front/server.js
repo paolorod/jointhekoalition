@@ -38,6 +38,10 @@ app.get('/:lang/', function (req, res) {
   res.render('home',translation[req.params.lang]);
 });
 
+app.get('/:lang/confirmation', function (req, res) {
+  res.render('confirm',translation[req.params.lang]);
+});
+
 
 // Start
 app.listen(PORT, HOST);
