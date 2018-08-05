@@ -104,7 +104,18 @@ footer.page-footer {
   padding: 5px;
 }
 
+.flowtext ul,li {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  /*margin-left: 1em;
+  margin-bottom: 1em;*/
+}
+
 /* Rotation Properties */
+
+.value {
+  font-weight: bold;
+}
 
 .rotate_l1 {
   transform: rotate(359deg);

@@ -4,6 +4,7 @@
              "date": "15 Giugno 2019"
         },
    "navbar": {
+        "welcome":"Benvenuti!",
         "ceremony_and_party":"Cerimonia e Festa",
         "travelling": "Come arrivare",
         "accomodation": "Ospitalità e Hotel",
@@ -19,10 +20,38 @@
            "informations_paragraph": "Per informazioni o dubbi potete contattarci direttamente via email o telefono. Vi ricontatteremo appena possible"            
     },
 
-    "cerimony": {
-           "location":"Chiostro del Museo Civico"
+    "welcome": {
+        "paragraph1": "Cari amici e parenti, siamo molto felici che vogliate condividere con noi questo giorno così importante. Su questo sito abbiamo cercato di mettere tutte le informazioni per vivere al meglio insieme a noi questa giornata.",
+        "value_paragraph": "Abbiamo scelto di organizzare questa giornata in modo che ci rappresenti, secondo alcuni valori importati:",
+        "values": [
+            {
+                "value":"Condivisione",
+                "explanation":"Preferiamo avere con noi tutte le persone care e che hanno condiviso con noi momenti importanti, anche al dispetto della distanza che ci separa. Per questo motivo, per chi viene da distante proponiamo una accomodazione condivisa, dove vivere insieme in quei giorni."
+             },
+             {
+                "value":"Sostenibilità",
+                "explanation":"Abbiamo cercato di minimizare la necessità di muoversi in macchina. Tutto il matrimonio è pensato per essere godibile con i mezzi pubblici, senza dover prendere un'auto personale. Tutte le location sono raggiungibili a piedi dal centro di Bassano."
+             },
+             {
+                "value":"Inclusività",
+                "explanation":"Abbiamo cercato di coinvolgere il territorio e chi lo fa vivere, lasciando le porte aperte alla città. Per questo motivo abbiamo scelto come luogo della festa la villa Anagaran San Giuseppe, epicentro di vita associativa della città."
+             }
+            ]
     },
 
+    "cerimony": {
+           "cerimony":"Cerimonia",
+           "festa":"Party",
+           "comfy_shoes":"Portatevi scarpe comode!",
+           "location_ceremony":"Chiostro del Museo Civico",
+           "location_party":"Villa Angaran San Giuseppe",
+           "time":"10:30",
+           "paragraph1":"Ci sposiamo a Bassano del Grappa, la città natale di Paolo, con rito civile.",
+           "paragraph2":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
+           "paragraph3":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
+           "paragraph4":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina"
+        },
+    
     "confirmation": {
         "first_name":"Nome",
         "last_name":"Cognome",

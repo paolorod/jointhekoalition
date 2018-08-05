@@ -3,6 +3,7 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <ul class="right hide-on-med-and-down">
+        <li><a href="javascript:scrollToId('welcome')">{{navbar.welcome}}</a></li>
         <li><a href="javascript:scrollToId('ceremony_and_party')">{{navbar.ceremony_and_party}}</a></li>
         <li><a href="javascript:scrollToId('travelling')">{{navbar.travelling}}</a></li>
         <li><a href="javascript:scrollToId('accomodation')">{{navbar.accomodation}}</a></li>
@@ -12,6 +13,7 @@
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
+        <li><a href="javascript:scrollToId('welcome')">{{navbar.welcome}}</a></li>
         <li><a href="javascript:scrollToId('ceremony_and_party')">{{navbar.ceremony_and_party}}</a></li>
         <li><a href="javascript:scrollToId('travelling')">{{navbar.travelling}}</a></li>
         <li><a href="javascript:scrollToId('accomodation')">{{navbar.accomodation}}</a></li>
@@ -34,23 +36,30 @@
         </div>
       </div>
 
+  <div class="container anchor" id="welcome">
+    <div class="row">
+      <div class="col s4"><img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg"/></div>
+      <div class="col offset-s1 s7">
+        <h5 class="header gray light">{{navbar.welcome}}</h5>
+        <p class="flowtext">
+          {{welcome.paragraph1}}<br/>
+          {{welcome.value_paragraph}}
+        </p>
+        {{#each welcome.values}}
+        <p class="flowtext"><span class="value">{{value}}</span> - {{explanation}}</p>
+        {{/each}}
+      </div>
+    </div>
+  </div>
 
   <div class="container anchor" id="ceremony_and_party">
-    <div class="section row">
-        <h5 class="header col s12 gray light">{{navbar.ceremony_and_party}}</h5>
-    </div>
-
     <div class="row">
       <div class="col s4">
         <img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg">
       </div>
-      <div class="col s4">
-        <!-- Promo Content 2 goes here -->
+      <div class="col s8">
+        <h5 class="header col gray light">{{navbar.ceremony_and_party}}</h5>
       </div>
-      <div class="col s4">
-        <!-- Promo Content 3 goes here -->
-      </div>
-
     </div>
   </div>
 
