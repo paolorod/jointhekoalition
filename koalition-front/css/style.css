@@ -104,7 +104,7 @@ footer.page-footer {
   padding: 5px;
 }
 
-.flowtext ul,li {
+.list {
   list-style-type: disc !important;
   list-style-position: outside !important;
   /*margin-left: 1em;
