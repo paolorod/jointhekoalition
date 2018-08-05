@@ -1,7 +1,8 @@
 {
    "global": {
             "couple": "Ariane e Paolo",
-             "date": "15 Giugno 2019"
+            "city":"(Bassano del Grappa)",
+            "date": "15 Giugno 2019 - 10:30"
         },
    "navbar": {
         "welcome":"Benvenuti!",
@@ -26,15 +27,15 @@
         "values": [
             {
                 "value":"Condivisione",
-                "explanation":"Preferiamo avere con noi tutte le persone care e che hanno condiviso con noi momenti importanti, anche al dispetto della distanza che ci separa. Per questo motivo, per chi viene da distante proponiamo una accomodazione condivisa, dove vivere insieme in quei giorni."
+                "explanation":"per chi viene da distante proponiamo una accomodazione condivisa, dove vivere insieme in quei giorni."
              },
              {
                 "value":"Sostenibilità",
-                "explanation":"Abbiamo cercato di minimizare la necessità di muoversi in macchina. Tutto il matrimonio è pensato per essere godibile con i mezzi pubblici, senza dover prendere un'auto personale. Tutte le location sono raggiungibili a piedi dal centro di Bassano."
+                "explanation":"tutto è pensato per essere godibile a piedi o con i mezzi pubblici, senza dover prendere un'auto personale."
              },
              {
-                "value":"Inclusività",
-                "explanation":"Abbiamo cercato di coinvolgere il territorio e chi lo fa vivere, lasciando le porte aperte alla città. Per questo motivo abbiamo scelto come luogo della festa la villa Anagaran San Giuseppe, epicentro di vita associativa della città."
+                "value":"Inclusività e impatto sociale",
+                "explanation":"abbiamo scelto una villa immersa nella città e che rimane aperta durante il matrimonio."
              }
             ]
     },

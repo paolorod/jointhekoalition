@@ -28,27 +28,34 @@
 
 <div class="container">
         <div class="row center light">
-          <h2 class="header col s12 center purple-text text-lighten-2 logo">{{global.couple}}</h1>
-          <h6 class="header col s12 light">{{global.date}}</h5>
+          <div class="col s12 center section">
+            <h1 class=" purple-text text-lighten-2 logo">{{global.couple}}</h2>
+            <h5 class="light date">{{global.date}}</h5>
+            <h5 class="light city">{{global.city}}</h5>
+          </div>
         </div>
-        <div class="row center">
-          <a href="#confirm" id="confirm-button" class="btn-large waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
+        <div class="row center light">
+          <div class="col s12 center section">
+            <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
+          </div>
         </div>
-      </div>
+ </div>
+
+
 
   <div class="container anchor" id="welcome">
     <div class="row">
       <div class="col s4 m4 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/PhotoPaoloAriane-1.jpg"/></div>
       <div class="col s6 m6 l6">
-        <h5 class="header gray light">{{navbar.welcome}}</h5>
+        <h5 class="header grey-text">{{navbar.welcome}}</h5>
       </div>
       <div class="col s12 m7 l7">
-        <p class="flowtext">
+        <p class="flowtext grey-text text-darken-3">
           {{welcome.paragraph1}}<br/>
           {{welcome.value_paragraph}}
         </p>
         {{#each welcome.values}}
-        <p class="flowtext"><span class="value">{{value}}</span> - {{explanation}}</p>
+        <p class="flowtext grey-text grey-text text-darken-3"><span class="value">{{value}}</span> - {{explanation}}</p>
         {{/each}}
       </div>
     </div>

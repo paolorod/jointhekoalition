@@ -64,8 +64,8 @@ footer.page-footer {
 }
 
 @font-face {
-  font-family: mallino;
-  src: url(/fonts/mallino.ttf);
+  font-family: gelpen;
+  src: url(/fonts/GelPen.ttf);
 }
 
 @font-face {
@@ -144,9 +144,12 @@ footer.page-footer {
 .flowtext {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
-h5 {
-  font-family: miss_kindergarten;
+.header {
+  font-family: shoreline_script;
+}
+
+.date, .city {
+  font-family: shoreline_script;
 }
