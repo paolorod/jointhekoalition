@@ -75,8 +75,8 @@ footer.page-footer {
 
 
 @font-face {
-  font-family: miss_kindergarden;
-  src: url(/fonts/miss_kindergarden.ttf);
+  font-family: miss_kindergarten;
+  src: url(/fonts/miss_kindergarten.ttf);
 }
 
 @font-face {
@@ -140,3 +140,13 @@ footer.page-footer {
 .rotate_r8 {
   transform: rotate(8deg);
 } 
+
+.flowtext {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h5 {
+  font-family: miss_kindergarten;
+}
