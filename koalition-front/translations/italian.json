@@ -54,15 +54,15 @@
            "paragraph2":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina",
            "link_chiostro": [{
                "text": "Il museo",
-                "url": "http://www.museibassano.it/sedi/museo-civico",
+                "url": "http://www.museibassano.it/sedi/museo-civico"
            }],
            "link_villa": [{
                     "text":"Rete Pictor",
-                    "url":"http://retepictor.org/",
+                    "url":"http://retepictor.org/"
                 },
                 {
                     "text":"La villa",
-                    "url":"http://retepictor.org/lo-spazio/",
+                    "url":"http://retepictor.org/lo-spazio/"
                 },
                 {
                     "text":"La storia",
