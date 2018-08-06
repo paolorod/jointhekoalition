@@ -42,21 +42,22 @@
     },
 
     "cerimony": {
-           "cerimony":"Cerimonia",
-           "party":"Festa",
-           "comfy_shoes":"Portatevi scarpe comode!",
-           "location_ceremony":"Chiostro del Museo Civico",
-           "location_party":"Villa Angaran San Giuseppe",
-           "time":"10:30",
-           "ceremony_desc":"Ci sposiamo con rito civile davanti all'entrata del museo civico.",
-           "party_desc":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
-           "paragraph1":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
-           "paragraph2":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina",
-           "link_chiostro": [{
-               "text": "Il museo",
-                "url": "http://www.museibassano.it/sedi/museo-civico"
-           }],
-           "link_villa": [{
+           "cerimony": {
+               "title": "Cerimonia",
+               "desc":"Ci sposiamo nel chiostro del museo. È un posto importante per Paolo, dato che era l'ingresso della biblioteca dove ha studiato per preparare i suoi primi esami dell'università.",
+               "discover":"Scoprite la storia del museo e del chiostro nei link qui sotto",
+               "time_and_address": "h10:30 - Chiostro del Museo Civico, via Bla Bla, Bassano del Grappa (VI)",
+               "links": [{
+                "text": "Il museo",
+                 "url": "http://www.museibassano.it/sedi/museo-civico"
+            }]
+           },
+           "party": {
+                "title": "Festa",
+                "desc":"La festa si terrà invece in Villa Angaran San Giuseppe - una villa gestita da una rete di associazioni (Rete Pictor) e dedicata a essere spazio di inclusione sociale.",
+                "discover":"Scoprite i progetti guardando i link qui sotto!",
+                "time_and_address": "A seguire - Villa Angaran San Giuseppe, via Bla Bla, Bassano del Grappa (VI)",
+                "links": [{
                     "text":"Rete Pictor",
                     "url":"http://retepictor.org/"
                 },
@@ -68,8 +69,11 @@
                     "text":"La storia",
                     "url":"http://retepictor.org/storia/"
                 }
-            
             ]
+          },
+           "paragraph1":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
+           "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della festa. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
+           "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina"
         },
     
     "confirmation": {

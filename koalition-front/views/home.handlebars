@@ -65,43 +65,52 @@
           <h5 class="header col gray light s12">{{navbar.ceremony_and_party}}</h5>
         </div>
         <div class="row">
+          {{#with cerimony.cerimony}}
           <div class="col s12 m6 l6">
-            <div class="card medium">
+            <div class="card big">
               <div class="card-image">
                 <img class="polaroid" src="/images/chiostro.jpg">
-                <span class="card-title">{{cerimony.cerimony}}</span>
+                <span class="card-title">{{title}}</span>
               </div>
               <div class="card-content">
-                <p>{{cerimony.ceremony_desc}}</p>
+                <p>{{desc}}</p>
+                <div class="address">{{time_and_address}}</div>
+                <p>{{discover}}</p>
               </div>
               <div class="card-action">
-                {{#each cerimony.link_chiostro}}
+                {{#each links}}
                   <a href="{{url}}">{{text}}</a>
                 {{/each}}
               </div>
             </div>
           </div>
+          {{/with}}
+          {{#with cerimony.party}}
           <div class="col s12 m6 l6">
-            <div class="card medium">
+            <div class="card big">
               <div class="card-image">
                 <img class="polaroid" src="/images/villa_san_giuseppe.jpg">
-                <span class="card-title">{{cerimony.party}}</span>
+                <span class="card-title">{{title}}</span>
               </div>
               <div class="card-content">
-                <p>{{cerimony.party_desc}}</p>
+                <p>{{desc}}</p>
+                <div class="address">{{time_and_address}}</div>
+                <p>{{discover}}</p>
               </div>
               <div class="card-action">
-                {{#each cerimony.link_villa}}
+                {{#each links}}
                   <a href="{{url}}">{{text}}</a>
                 {{/each}}
               </div>
             </div>
           </div>
+          {{/with}}
         </div>
         <div class='row'>
             <div class="col s12">
              <p class="flowtext">{{cerimony.paragraph1}}</p>
              <p class="flowtext">{{cerimony.paragraph2}}</p>
+             <p class="flowtext">{{cerimony.paragraph3}}</p>
             </div>
         </div>
       </div>
