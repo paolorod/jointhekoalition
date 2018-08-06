@@ -156,8 +156,23 @@ footer.page-footer {
 
 .address {
   font-family: monospace;
-  margin: 10px;
-  padding: 10px;
+  margin: 1em;
+  padding: 1em;
   border: 1px;
-  background-color: #ccc;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  vertical-align: center;
+}
+
+.message {
+  width: 90%;
+  height: 5em;
+  background-color: #f9ffac;
+  color: black;
+  font-family: gelpen;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 1em;
+  text-align: center;
+  vertical-align: center;
 }
