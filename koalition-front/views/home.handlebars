@@ -76,7 +76,9 @@
                 <p>{{cerimony.ceremony_desc}}</p>
               </div>
               <div class="card-action">
-                <a href="">Come arrivare</a>
+                {{#each cerimony.link_chiostro}}
+                  <a href="{{url}}">{{text}}</a>
+                {{/each}}
               </div>
             </div>
           </div>
@@ -91,7 +93,9 @@
                 <p>{{cerimony.party_desc}}</p>
               </div>
               <div class="card-action">
-                <a href="">Come arrivare</a>
+                {{#each cerimony.link_villa}}
+                  <a href="{{url}}">{{text}}</a>
+                {{/each}}
               </div>
             </div>
           </div>
