@@ -91,6 +91,21 @@
            "comfy_shoes":"Portate scarpe comode!"
         },
     
+    "travelling": {
+        "by_plane" : {
+            "title": "In Aereo",
+            "desc": "Seguire.."
+        },
+        "by_train" : {
+            "title": "In Treno",
+            "desc": "Seguire.."
+        },
+        "by_car" : {
+            "title": "In Macchina",
+            "desc": "Seguire.."
+        }
+    },
+    
     "confirmation": {
         "first_name":"Nome",
         "last_name":"Cognome",

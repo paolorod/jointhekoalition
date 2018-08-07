@@ -29,6 +29,12 @@ var translation = {
   default : require("./translations/italian.json")
 }
 
+var api_keys = require("./api_keys.json");
+
+// merge two javascript objects
+function merge(object1, object2) {
+  return object.assign(object1,object2);
+}
 
 // Methods
 // @TODO add correct translation selection logic
@@ -37,11 +43,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:lang/', function (req, res) {
-  res.render('home',translation[req.params.lang]);
+  res.render('home',merge(translation[req.params.lang],api_keys));
 });
 
 app.get('/:lang/confirmation', function (req, res) {
-  res.render('confirm',translation[req.params.lang]);
+  res.render('confirm',merge(translation[req.params.lang],api_keys));
 });
 
 
