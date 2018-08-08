@@ -94,15 +94,79 @@
     "travelling": {
         "by_plane" : {
             "title": "In Aereo",
-            "desc": "Seguire.."
+            "desc": "L'aeroporto preferenziale è Venezia, ma esistono altre soluzioni possibili se arrivate da lontano.",
+            "service": "Stiamo organizzando un servizio per aiutarvi ad orientarvi e accogliervi, senza che prendiate una macchina.",
+            "aereoport":  {
+                "name":"Venezia",
+                "connection": "Bus fino a Venezia Mestre (airbus) e poi treno diretto fino a Bassano",
+                "airlines":"Easyjet, Vueling, AirFrance",
+                "url": "https://www.veniceairport.it/"
+            },
+            "other_aereoports": [{
+                "name":"Venezia Treviso / Treviso Sant'Angelo (TSF)",
+                "connections":"Bus fino alla stazione dei treni (Treviso Centrale), poi treno fino a Bassano (1 o 2 cambi)",
+                "airlines": "Ryanair, Easyjet",
+                "url": "https://www.trevisoairport.it/"
+            },
+            {
+                "name":"Bologna",
+                "connections":"Bus fino alla stazione dei treni (Bologna Centrale), poi treno fino a Bassano (1 o 2 cambi).",
+                "airlines": "Ryanair, AirFrance",
+                "url": "https://www.bologna-airport.it/"
+            }
+        ]
         },
         "by_train" : {
             "title": "In Treno",
-            "desc": "Seguire.."
+            "service": "Stiamo organizzando un servizio per accogliervi in stazione",
+            "desc": "Il treno può essere una buona soluzione, specie se venite dall'Italia o in combinata con l'aereo",
+            "lines": [ {
+                "from":"Padova",
+                "timetable":" Diretto ogni ora circa",
+                "price": "5.6 €",
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V13_S.pdf"
+            },
+            {
+                "from":"Venezia",
+                "timetable":" Diretto ogni 45 minuti circa",
+                "price": "5.6 €",
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V14%20S.pdf"
+            }
+            ]
         },
         "by_car" : {
             "title": "In Macchina",
-            "desc": "Seguire.."
+            "desc": "La macchina non è necessaria per gli spostamenti interni, ma potrebbe essere una buona soluzione per chi arriva dall'Italia",
+            "direction": [
+                {"from": "da Milano",
+                 "direction": "Prendere l'A4 in direzione Venezia fino a Vicenza Nord, poi seguire verso Bassano del Grappa"
+                },
+                {"from": "da Venezia",
+                    "direction": "Prendere l'A4 in direzione Milano fino a Padova Ovest, poi seguire verso Bassano del Grappa lungo la SS47"
+                },
+                {"from": "da Bologna",
+                    "direction": "Prendere l'A13 fino a Padova Sud, poi prendere la tangeziale ovest in direzione Treno e poi proseguire lungo la SS47"
+                }
+            ],
+            "parcheggio_info":"La zona della cerimonia è a traffico limitato. Vi consigliamo di parcheggiare fuori e entrare in centro a piedi. Per la festa, si può entrare con le macchine e parcheggiare sul retro.",
+            "parcheggi": [{
+                    "name": "Parcheggio Prato 1",
+                    "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Prato-1",
+                    "walking distance": {
+                        "ceremony":"",
+                        "party":""
+                    },
+                    "price":"free"
+            },
+            {
+                "name": "Parcheggio Il Ponte",
+                "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Il-ponte",
+                "walking distance": {
+                    "ceremony":"",
+                    "party":""
+                },
+                "price":"1.20 all'ora"
+        }]
         }
     },
     
