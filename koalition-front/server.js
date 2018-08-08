@@ -33,7 +33,7 @@ var api_keys = require("./api_keys.json");
 
 // merge two javascript objects
 function merge(object1, object2) {
-  return object.assign(object1,object2);
+  return Object.assign(object1,object2);
 }
 
 // Methods
