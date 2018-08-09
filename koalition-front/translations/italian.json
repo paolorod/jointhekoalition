@@ -96,6 +96,8 @@
             "title": "In Aereo",
             "desc": "L'aeroporto preferenziale è Venezia, ma esistono altre soluzioni possibili se arrivate da lontano.",
             "service": "Stiamo organizzando un servizio per aiutarvi ad orientarvi e accogliervi, senza che prendiate una macchina.",
+            "connection_label": "Collegamenti",
+            "airlines_label":"Compagnie consigliate",
             "aereoport":  {
                 "name":"Venezia",
                 "connection": "Bus fino a Venezia Mestre (airbus) e poi treno diretto fino a Bassano",
