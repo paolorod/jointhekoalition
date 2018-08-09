@@ -194,6 +194,43 @@
   </div>
 
 
+
+  <div class="container">
+    <div class="section">
+        <h5 class="header col s12 gray light">{{navbar.travelling}}</h5>
+    </div>
+    
+    <ul class="collapsible">
+    {{#with travelling.by_plane}}
+    <li>
+      <div class="collapsible-header">
+            <h5><i class="material-icons">flight_land</i>{{title}}</h5>
+            <p class="flowtext">{{desc}}</p>     
+      </div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    {{/with}}
+    {{#with travelling.by_train}}
+    <li>
+      <div class="collapsible-header">
+            <h5><i class="material-icons">train</i>{{title}}</h5>
+            <p class="flowtext">{{desc}}</p>     
+      </div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    {{/with}}
+    {{#with travelling.by_car}}
+    <li>
+      <div class="collapsible-header">
+            <h5><i class="material-icons">directions_car</i>{{title}}</h5>
+            <p class="flowtext">{{desc}}</p>     
+      </div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    {{/with}}
+  </div>
+  
+
   <div class="container anchor" id="accomodation">
     <div class="section">
         <h5 class="header col s12 gray light">{{navbar.accomodation}}</h5>
