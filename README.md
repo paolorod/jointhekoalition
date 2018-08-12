@@ -6,3 +6,4 @@ Based on https://materializecss.com using parallax template
 Inside the front services there is a file called api_keys.json which is required for the service to work.
 The values requested are:
 * google_map_embed - the google key to embed google map
+* airtable - to send the confirmations to the airtable backend

@@ -31,6 +31,11 @@ var translation = {
 
 var api_keys = require("./api_keys.json");
 
+// configure Airtable backend
+var Airtable = require('airtable');
+Airtable.configure({ apiKey: api_keys.airtable })
+var base = Airtable.base('appqWQ24V5Xv0VZiH')
+
 // merge two javascript objects
 function merge(object1, object2) {
   return Object.assign(object1,object2);
@@ -43,11 +48,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:lang/', function (req, res) {
-  res.render('home',merge(translation[req.params.lang],api_keys));
+  res.render('home',translation[req.params.lang]);
 });
 
 app.get('/:lang/confirmation', function (req, res) {
-  res.render('confirm',merge(translation[req.params.lang],api_keys));
+  res.render('confirm',translation[req.params.lang]);
 });
 
 
