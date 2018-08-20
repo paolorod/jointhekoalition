@@ -1,3 +1,8 @@
-env: flex
-runtime: nodejs
-secure: always
+env: standard
+runtime: nodejs8
+
+handlers:
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
