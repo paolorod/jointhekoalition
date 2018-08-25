@@ -7,6 +7,8 @@ const HOST = '0.0.0.0';
 // Express and Handlebars setup
 const express = require('express');
 
+// locale configuration for browser negotiation library
+// used to make the first redirect automatically
 const locale = require("locale");
 const languages = {
   supported: ["en", "fr", "it"],
