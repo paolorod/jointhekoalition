@@ -6,28 +6,27 @@ const HOST = '0.0.0.0';
 
 // Express and Handlebars setup
 const express = require('express');
+
+const locale = require("locale");
+const languages = {
+  supported: ["en", "fr", "it"],
+  default: "it"
+};
+
+// Helpers and Handlerbars configuration
 const exphbs  = require('express-handlebars');
 const helpers = require('./helpers.js');
-
-const handlebars=require('handlebars')
-function format(text) { 
-  text = handlebars.escapeExpression(text)
-  return new handlebars.SafeString(
-    text.replace(/\[b\](.*)\[\/b\]/g, '<b>$1</b>')
-  )
-}
-
 const hbs = exphbs.create(
     { defaultLayout: "main",
       helpers: {
-        format: format
+        format: helpers.format
       }
     });
-
 
 // App creation and configuration
 const app = express();
 app.engine('handlebars', hbs.engine);
+app.use(locale(languages.supported, languages.default))
 app.set('view engine', 'handlebars');
 
 // static file serving
@@ -38,9 +37,9 @@ app.use('/fonts', express.static(__dirname + '/fonts'));
 
 // A very basic translation support
 var translation = {
-  "ita" : require("./translations/italian.json"),
-  "fra" : require("./translations/french.json"),
-  "eng" : require("./translations/english.json"),
+  "it" : require("./translations/italian.json"),
+  "fr" : require("./translations/french.json"),
+  "en" : require("./translations/english.json"),
   default : require("./translations/italian.json")
 }
 
@@ -57,9 +56,8 @@ function merge(object1, object2) {
 }
 
 // Methods
-// @TODO add correct translation selection logic
 app.get('/', function (req, res) {
-  res.redirect("/ita")
+  res.redirect("/"+req.locale)
 });
 
 app.get('/:lang/', function (req, res) {
