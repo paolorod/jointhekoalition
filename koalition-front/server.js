@@ -15,6 +15,21 @@ const languages = {
   default: "it"
 };
 
+// A very basic translation support
+var translation = {
+  "it" : require("./translations/italian.json"),
+  "fr" : require("./translations/french.json"),
+  "en" : require("./translations/english.json"),
+
+  get: function(language) {
+    if(language in languages.supported) {
+      return this[language];
+    } else {
+      return this[languages.default];
+    }
+  }
+}
+
 // Helpers and Handlerbars configuration
 const exphbs  = require('express-handlebars');
 const helpers = require('./helpers.js');
@@ -37,13 +52,6 @@ app.use('/js', express.static(__dirname + '/js'));
 app.use('/images', express.static(__dirname + '/images'));
 app.use('/fonts', express.static(__dirname + '/fonts'));
 
-// A very basic translation support
-var translation = {
-  "it" : require("./translations/italian.json"),
-  "fr" : require("./translations/french.json"),
-  "en" : require("./translations/english.json"),
-  default : require("./translations/italian.json")
-}
 
 var api_keys = require("./api_keys.json");
 
@@ -63,11 +71,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:lang/', function (req, res) {
-  res.render('home',translation[req.params.lang]);
+  res.render('home',translation.get(req.params.lang));
 });
 
 app.get('/:lang/confirmation', function (req, res) {
-  res.render('confirm',translation[req.params.lang]);
+  res.render('confirm',translation.get(req.params.lang));
 });
 
 
