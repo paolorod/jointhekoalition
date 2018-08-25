@@ -60,11 +60,6 @@ var Airtable = require('airtable');
 Airtable.configure({ apiKey: api_keys.airtable })
 var base = Airtable.base('appqWQ24V5Xv0VZiH')
 
-// merge two javascript objects
-function merge(object1, object2) {
-  return Object.assign(object1,object2);
-}
-
 // Methods
 app.get('/', function (req, res) {
   res.redirect("/"+req.locale)
