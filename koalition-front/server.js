@@ -7,7 +7,18 @@ const HOST = '0.0.0.0';
 // Express and Handlebars setup
 const express = require('express');
 const exphbs  = require('express-handlebars');
-const hbs = exphbs.create({ defaultLayout: "main"});
+const handlebars=require('handlebars')
+const hbs = exphbs.create(
+    { defaultLayout: "main",
+      helpers: {
+        format: function (text) { 
+          text = handlebars.escapeExpression(text)
+          return new handlebars.SafeString(
+            text.replace(/\[b\](.*)\[\/b\]/g, '<b>$1</b>')
+          )
+        }
+      }
+    });
 
 
 // App creation and configuration
