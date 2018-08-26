@@ -156,10 +156,14 @@
     },
     
     "confirmation": {
+        "main_contact":"Contatto Principale",
         "first_name":"Nome",
         "last_name":"Cognome",
         "telephone":"Telefono",
         "email":"Email",
+        "other_people":"Altre Persone",
+        "other_people_list":"Altre Persone che volete confermare",
+        "info":"Informazioni Aggiuntive",
         "need_hostel":"Vogliamo usufruire dell'ospitalità in ostello",
         "dinner_14":"Partecipiamo alla cena del 14 sera per gli ospiti lontani",
         "particular-food":"Alimentazione (allergie/intolleranze, vegeteriano, kosher, halal...)",

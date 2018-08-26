@@ -6,6 +6,7 @@ const HOST = '0.0.0.0';
 
 // Express and Handlebars setup
 const express = require('express');
+const bodyParser = require('body-parser');
 
 // locale configuration for browser negotiation library
 // used to make the first redirect automatically
@@ -57,6 +58,9 @@ app.use('/js', express.static(__dirname + '/js'));
 app.use('/images', express.static(__dirname + '/images'));
 app.use('/fonts', express.static(__dirname + '/fonts'));
 
+// body parser
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 var api_keys = require("./api_keys.json");
 
