@@ -94,7 +94,7 @@
     "travelling": {
         "by_plane" : {
             "title": "In Aereo",
-            "desc": "L'aeroporto preferenziale è Venezia, ma esistono altre soluzioni possibili se arrivate da lontano.",
+            "desc": "L'aeroporto che vi consigliamo è [b]Venezia[/b]. Ci stiamo organizzando per fare in modo",
             "service": "Stiamo organizzando un servizio per aiutarvi ad orientarvi e accogliervi, senza che prendiate una macchina.",
             "connection_label": "Collegamenti",
             "airlines_label":"Compagnie consigliate",
@@ -109,12 +109,6 @@
                 "connections":"Bus fino alla stazione dei treni (Treviso Centrale), poi treno fino a Bassano (1 o 2 cambi)",
                 "airlines": "Ryanair, Easyjet",
                 "url": "https://www.trevisoairport.it/"
-            },
-            {
-                "name":"Bologna",
-                "connections":"Bus fino alla stazione dei treni (Bologna Centrale), poi treno fino a Bassano (1 o 2 cambi).",
-                "airlines": "Ryanair, AirFrance",
-                "url": "https://www.bologna-airport.it/"
             }
         ]
         },
@@ -139,17 +133,6 @@
         "by_car" : {
             "title": "In Macchina",
             "desc": "La macchina non è necessaria per gli spostamenti interni, ma potrebbe essere una buona soluzione per chi arriva dall'Italia",
-            "direction": [
-                {"from": "da Milano",
-                 "direction": "Prendere l'A4 in direzione Venezia fino a Vicenza Nord, poi seguire verso Bassano del Grappa"
-                },
-                {"from": "da Venezia",
-                    "direction": "Prendere l'A4 in direzione Milano fino a Padova Ovest, poi seguire verso Bassano del Grappa lungo la SS47"
-                },
-                {"from": "da Bologna",
-                    "direction": "Prendere l'A13 fino a Padova Sud, poi prendere la tangeziale ovest in direzione Treno e poi proseguire lungo la SS47"
-                }
-            ],
             "parcheggio_info":"La zona della cerimonia è a traffico limitato. Vi consigliamo di parcheggiare fuori e entrare in centro a piedi. Per la festa, si può entrare con le macchine e parcheggiare sul retro.",
             "parcheggi": [{
                     "name": "Parcheggio Prato 1",

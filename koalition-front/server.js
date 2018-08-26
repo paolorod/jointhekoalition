@@ -17,15 +17,19 @@ const languages = {
 
 // A very basic translation support
 var translation = {
-  "it" : require("./translations/italian.json"),
-  "fr" : require("./translations/french.json"),
-  "en" : require("./translations/english.json"),
-
-  get: function(language) {
-    if(language in languages.supported) {
-      return this[language];
+  languages : languages,
+  translations : {
+    "it" : require("./translations/italian.json"),
+    "fr" : require("./translations/french.json"),
+    "en" : require("./translations/english.json"),
+  },
+  
+  get: function(lang) {
+    if(this.languages.supported.includes(lang)) {
+      return this.translations[lang];
     } else {
-      return this[languages.default];
+      console.log("Language "+lang+" not found - using default")
+      return this.translations[this.languages.default];
     }
   }
 }
