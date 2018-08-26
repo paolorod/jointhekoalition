@@ -44,6 +44,7 @@ const hbs = exphbs.create(
 const app = express();
 app.engine('handlebars', hbs.engine);
 app.use(locale(languages.supported, languages.default))
+app.set("translation",translation)
 app.set('view engine', 'handlebars');
 
 // static file serving
@@ -55,10 +56,13 @@ app.use('/fonts', express.static(__dirname + '/fonts'));
 
 var api_keys = require("./api_keys.json");
 
+const confirmation_controller = require("./controllers/confirmation_controller")
+
 // configure Airtable backend
 var Airtable = require('airtable');
 Airtable.configure({ apiKey: api_keys.airtable })
-var base = Airtable.base('appqWQ24V5Xv0VZiH')
+var base = Airtable.base('appgY2DrHNOEPfIGJ')
+app.set("base",base)
 
 // Methods
 app.get('/', function (req, res) {
@@ -69,9 +73,10 @@ app.get('/:lang/', function (req, res) {
   res.render('home',translation.get(req.params.lang));
 });
 
-app.get('/:lang/confirmation', function (req, res) {
-  res.render('confirm',translation.get(req.params.lang));
-});
+app.get('/:lang/confirmation', confirmation_controller.execute_get);
+
+app.post('/:lang/confirmation', confirmation_controller.execute_post);
+
 
 
 // Start
