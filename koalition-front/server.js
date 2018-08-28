@@ -59,7 +59,7 @@ app.use('/images', express.static(__dirname + '/images'));
 app.use('/fonts', express.static(__dirname + '/fonts'));
 
 // body parser
-//app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var api_keys = require("./api_keys.json");
