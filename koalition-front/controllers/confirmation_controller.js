@@ -28,12 +28,12 @@ function  execute_post(req,res) {
                 "Message": body.message
               };
         
-            add_childs(body.others,main_record,base)
+            write_record_with_dependencies(body.others,main_record,base)
          
             res.send(req.body);    
 }
 
-function add_childs(childs,parent_record,base) {
+function write_record_with_dependencies(childs,parent_record,base) {
 
     if(childs.length > 0) {
         current_child = childs.pop().tag;
@@ -48,12 +48,12 @@ function add_childs(childs,parent_record,base) {
                 }
                 // add to the recursion parent record reference the child id and call recursion through callback
                 parent_record["Other People Inside Confirmation"].push(child_record.getId());
-                add_childs(childs,parent_record,base);
+                write_record_with_dependencies(childs,parent_record,base);
             });
         } else {
             // immediate recursion in case of invalid element
             console.log("Invalid child - "+ current_child);
-            add_childs(childs,parent_record,base);
+            write_record_with_dependencies(childs,parent_record,base);
         }
     } else {
         // all childs inserted, so create the parent record
