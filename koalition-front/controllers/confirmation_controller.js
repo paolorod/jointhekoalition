@@ -9,9 +9,8 @@ function  execute_post(req,res) {
             
             var base = res.app.get("base")
             var body = req.body;
-            console.log(req.body)
 
-            // create the main record object
+            // input parsing
             var main_record = {
                 "Name": body.first_name,
                 "Surname": body.last_name,
@@ -33,10 +32,12 @@ function  execute_post(req,res) {
                   }
               });
         
-            create_records(main_record,other_participants,base,res);
+            // send to creation backend using a recursive call via callbacks
+            return create_records(main_record,other_participants,base,res);
              
 }
 
+// recursive callback function to create the child records then the main record referring to them
 function create_records(main_record,other_participants,base,res) {
 
     if(other_participants.length > 0) {
