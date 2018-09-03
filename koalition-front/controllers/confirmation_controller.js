@@ -2,14 +2,12 @@ const { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
 
 function  execute_get(req,res) {
-
             res.render('confirm',req.app.get("translation").get(req.params.lang));    
          };
         
 function  execute_post(req,res) {
             
             var base = res.app.get("base")
-
             var body = req.body;
             console.log(req.body)
 
@@ -27,43 +25,55 @@ function  execute_post(req,res) {
                 "Special Baby Needs": body.paritcular_babies,
                 "Message": body.message
               };
+
+              other_participants = [];
+              body.others.forEach(element => {
+                  if(!(element.tag === "")) {
+                    other_participants.push(element.tag);
+                  }
+              });
         
-            write_record_with_dependencies(body.others,main_record,base)
-         
-            res.send(req.body);    
+            create_records(main_record,other_participants,base,res);
+             
 }
 
-function write_record_with_dependencies(childs,parent_record,base) {
+function create_records(main_record,other_participants,base,res) {
 
-    if(childs.length > 0) {
-        current_child = childs.pop().tag;
-        if(!(current_child === "")) {
-            // is a good record, so create
-            console.log("Creating child - "+ current_child)
-            base('Other People Inside Confirmation').create({
-                "Name and Surname": current_child
-            }, function(err, child_record) {
-                if (err) { 
-                    console.error(err); return; 
-                }
-                // add to the recursion parent record reference the child id and call recursion through callback
-                parent_record["Other People Inside Confirmation"].push(child_record.getId());
-                write_record_with_dependencies(childs,parent_record,base);
-            });
-        } else {
-            // immediate recursion in case of invalid element
-            console.log("Invalid child - "+ current_child);
-            write_record_with_dependencies(childs,parent_record,base);
-        }
+    if(other_participants.length > 0) {
+        current_child = other_participants.pop();
+        console.log("Creating child - "+ current_child)
+        base('Other People Inside Confirmation').create({
+            "Name and Surname": current_child
+        }, function(err, child_record) {
+            if (err) { 
+                console.error(err);
+                return send_error(res);
+            }
+            // add to the recursion parent record reference the child id and call recursion through callback
+            main_record["Other People Inside Confirmation"].push(child_record.getId());
+            return create_records(main_record,other_participants,base,res);
+        });
     } else {
         // all childs inserted, so create the parent record
-        console.log("Creating main record with childs "+ parent_record["Other People Inside Confirmation"])
-        base('Automatic Confirmations').create(parent_record, function(err, record) {
+        console.log("Creating main record with childs "+ main_record["Other People Inside Confirmation"])
+        base('Automatic Confirmations').create(main_record, function(err, record) {
               if (err) { 
-                  console.error(err); return; 
+                  console.error(err);
+                  return send_error(res);  
               }
+            return send_success(res);
           });
     }
+}
+
+
+function send_success(res) {
+    res.send("Records created successfully");
+}
+
+function send_error(res) {
+    res.statusCode = 505;
+    res.send("Error while writing records");
 }
 
 
