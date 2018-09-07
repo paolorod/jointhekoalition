@@ -148,33 +148,14 @@
     <div id="by_plane" class="row">
       {{#with travelling.by_plane}}
       <div class="col s8">
-        <h5><i class="material-icons">flight_land</i>{{title}}</h5>
         <p class="flowtext">{{format desc}}</p>
         {{#with aereoport}}
-        <div class="col s12">
-          <div class="card horizontal">
-            <div class="card-image">
-              <img src=""/>
-            </div>
-            <div class="card-stacked">
               <h6>{{name}}</h6>
-              <div class="card-content">
-                <div class="row">
                   <div class="col s12 minilabel">{{../connection_label}}</div>
                   <div class="col s12">{{connection}}</div>
-                </div>
-                <div class="row">
                   <div class="col s12 minilabel">{{../airlines_label}}</div>
                   <div class="col s12">{{airlines}}</div>
-                </div>
-              </div>
-              <div class="card-action">
-                <a href="{{url}}">{{url}}</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/with}}
+        {{/with}}
       </div>
       {{/with}}
       
@@ -193,43 +174,6 @@
     </div>
   </div>
 
-
-
-  <div class="container">
-    <div class="section">
-        <h5 class="header col s12 gray light">{{navbar.travelling}}</h5>
-    </div>
-    
-    <ul class="collapsible">
-    {{#with travelling.by_plane}}
-    <li>
-      <div class="collapsible-header">
-            <h5><i class="material-icons">flight_land</i>{{title}}</h5>
-            <p class="flowtext">{{desc}}</p>     
-      </div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    {{/with}}
-    {{#with travelling.by_train}}
-    <li>
-      <div class="collapsible-header">
-            <h5><i class="material-icons">train</i>{{title}}</h5>
-            <p class="flowtext">{{desc}}</p>     
-      </div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    {{/with}}
-    {{#with travelling.by_car}}
-    <li>
-      <div class="collapsible-header">
-            <h5><i class="material-icons">directions_car</i>{{title}}</h5>
-            <p class="flowtext">{{desc}}</p>     
-      </div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    {{/with}}
-  </div>
-  
 
   <div class="container anchor" id="accomodation">
     <div class="section">
