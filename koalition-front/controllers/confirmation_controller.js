@@ -1,4 +1,4 @@
-vconst { body,validationResult } = require('express-validator/check');
+const { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
 
 function  execute_get(req,res) {
