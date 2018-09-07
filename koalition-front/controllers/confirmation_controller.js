@@ -1,4 +1,4 @@
-const { body,validationResult } = require('express-validator/check');
+vconst { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
 
 function  execute_get(req,res) {
@@ -62,7 +62,7 @@ function create_records(main_record,other_participants,base,res) {
                   console.error(err);
                   return send_error(res);  
               }
-            return send_success(res);
+            return send_confirmation_email(main_record,res);
           });
     }
 }
@@ -75,6 +75,27 @@ function send_success(res) {
 function send_error(res) {
     res.statusCode = 505;
     res.send("Error while writing records");
+}
+
+function send_confirmation_email(record,res) {
+
+    var transport = res.app.get("mailer-transport");
+
+    var mailOptions = {
+        from: 'youremail@gmail.com',
+        to: 'myfriend@yahoo.com',
+        subject: 'Sending Email using Node.js',
+        text: 'That was easy!'
+      };
+      
+      transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+          console.log(error);
+          return send_error(res);
+        } 
+        return send_success(res);
+      }); 
+      
 }
 
 

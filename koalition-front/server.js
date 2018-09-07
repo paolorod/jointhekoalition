@@ -72,6 +72,18 @@ Airtable.configure({ apiKey: api_keys.airtable })
 var base = Airtable.base('appgY2DrHNOEPfIGJ')
 app.set("base",base)
 
+// configure mailer backed
+var nodemailer = require('nodemailer');
+var transport = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'youremail@gmail.com',
+    pass: 'yourpassword'
+  }
+});
+app.set("mailer-transport",transport);
+
+
 // Methods
 app.get('/', function (req, res) {
   res.redirect("/"+req.locale)
