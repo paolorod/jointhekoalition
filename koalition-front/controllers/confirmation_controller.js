@@ -81,7 +81,7 @@ function send_error(res) {
 }
 
 function send_confirmation_email(record,other_participants,res) {
-    mail_flag = false
+    mail_flag = true
     if(mail_flag) {
         var transport = res.app.get("mailer-transport");
 
@@ -92,7 +92,7 @@ function send_confirmation_email(record,other_participants,res) {
             from: 'confirmation@jointhekoalition.eu',
             to: 'ariane.paolo@jointhekoalition.eu',
             subject: '[Confirmation] '+record["Name"] + " " + record["Surname"],
-            html: json_to_html(record)
+            html: "<p>Confirmation received at " + new Date() +"</p>" +json_to_html(record)
         };
         
         transport.sendMail(mailOptions, function(error, info){
