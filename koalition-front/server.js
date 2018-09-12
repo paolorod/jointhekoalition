@@ -62,9 +62,9 @@ app.use('/fonts', express.static(__dirname + '/fonts'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// load secrets config files
 var secrets = require("./secrets.json");
-
-const confirmation_controller = require("./controllers/confirmation_controller")
+app.set("secrets",secrets);
 
 // configure Airtable backend
 var Airtable = require('airtable');
@@ -85,6 +85,9 @@ var transport = nodemailer.createTransport(
     }}
 );
 app.set("mailer-transport",transport);
+
+// controllers
+const confirmation_controller = require("./controllers/confirmation_controller")
 
 
 // Methods

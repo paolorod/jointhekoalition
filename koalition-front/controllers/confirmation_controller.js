@@ -1,8 +1,15 @@
 const { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
+var jwt = require('jsonwebtoken');
 
 function  execute_get(req,res) {
-            res.render('confirm',req.app.get("translation").get(req.params.lang));    
+            var token = jwt.sign({ "source": "jointhekoalition"}, res.app.get("secrets").jwt_secret, {
+                expiresIn: 86400 // expires in 24 hours
+            });
+            res.render('confirm',
+                // return translations plus JWT token
+                Object.assign(req.app.get("translation").get(req.params.lang),{"token":token})
+            );    
          };
         
 function  execute_post(req,res) {

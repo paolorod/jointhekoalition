@@ -43,6 +43,9 @@ function confirmation_form_submit() {
     // save into main object
     data["others"] = chips_data;
 
+    // add the token information
+    data["token"] = $("#token").val()
+
      // construct an HTTP request
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "./confirmation", true);
