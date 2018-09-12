@@ -5,8 +5,6 @@ Based on https://materializecss.com using parallax template
 # Deploy
 The service support docker deploy (via compose) and google app engine deploy
 
-## API Keys
-Inside the front services there is a file called api_keys.json which is required for the service to work.
-The values requested are:
-* google_map_embed - the google key to embed google map
-* airtable - to send the confirmations to the airtable backend
+## Secrets
+To work correctly secrets have to be entered.
+A template file called secrets.json.template have to be filled and then renamed to secrets.jsond

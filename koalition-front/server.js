@@ -62,25 +62,28 @@ app.use('/fonts', express.static(__dirname + '/fonts'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var api_keys = require("./api_keys.json");
+var secrets = require("./secrets.json");
 
 const confirmation_controller = require("./controllers/confirmation_controller")
 
 // configure Airtable backend
 var Airtable = require('airtable');
-Airtable.configure({ apiKey: api_keys.airtable })
+Airtable.configure({ apiKey: secrets.api_keys.airtable })
 var base = Airtable.base('appgY2DrHNOEPfIGJ')
 app.set("base",base)
 
 // configure mailer backed
 var nodemailer = require('nodemailer');
-var transport = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: 'youremail@gmail.com',
-    pass: 'yourpassword'
-  }
-});
+var transport = nodemailer.createTransport(
+  {
+    host: 'ssl0.ovh.net',
+    port: 465,
+    secure: true, // use TLS
+    auth: {
+        user: secrets.email.username,
+        pass: secrets.email.password
+    }}
+);
 app.set("mailer-transport",transport);
 
 
