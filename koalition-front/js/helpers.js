@@ -44,12 +44,13 @@ function confirmation_form_submit() {
     data["others"] = chips_data;
 
     // add the token information
-    data["token"] = $("#token").val()
+   token = $("#token").val()
 
      // construct an HTTP request
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "./confirmation", true);
     xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    xhr.setRequestHeader('x-auth', token);
 
     // send the collected data as JSON
     xhr.send(JSON.stringify(data));

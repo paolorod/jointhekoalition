@@ -14,8 +14,18 @@ function  execute_get(req,res) {
         
 function  execute_post(req,res) {
             
-            var body = req.body;
+            var token = req.headers['x-auth'];
+            if (!token) return res.status(401).send({ auth: false, message: 'No token provided.' });
+            
+            jwt.verify(token, res.app.get("secrets").jwt_secret, function(err, decoded) {
+                if (err) return res.status(500).send({ auth: false, message: 'Failed to authenticate token.' });    
+                parse_intput(req,res);
+              });
+}
 
+function parse_intput(req,res) {
+
+            var body = req.body;
             console.log(body)
 
             // input parsing
