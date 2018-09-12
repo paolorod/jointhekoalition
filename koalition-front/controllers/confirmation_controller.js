@@ -82,13 +82,13 @@ function send_confirmation_email(record,res) {
     var transport = res.app.get("mailer-transport");
 
     var mailOptions = {
-        from: 'youremail@gmail.com',
-        to: 'myfriend@yahoo.com',
-        subject: 'Sending Email using Node.js',
+        from: 'confirmation@jointhekoalition.eu',
+        to: 'ariane.paolo@jointhekoalition.eu',
+        subject: '[Confirmation]',
         text: 'That was easy!'
       };
       
-      transporter.sendMail(mailOptions, function(error, info){
+      transport.sendMail(mailOptions, function(error, info){
         if (error) {
           console.log(error);
           return send_error(res);
