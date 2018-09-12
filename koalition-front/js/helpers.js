@@ -43,15 +43,13 @@ function confirmation_form_submit() {
     // save into main object
     data["others"] = chips_data;
 
-    alert(JSON.stringify(data))
-
      // construct an HTTP request
     var xhr = new XMLHttpRequest();
-    //xhr.open("POST", "./confirmation", true);
-    //xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    xhr.open("POST", "./confirmation", true);
+    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 
     // send the collected data as JSON
-    //xhr.send(JSON.stringify(data));
+    xhr.send(JSON.stringify(data));
     
 
     xhr.onloadend = function () {
