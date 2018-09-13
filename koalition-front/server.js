@@ -4,6 +4,10 @@
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
+// add timestamps in front of log messages
+require('console-stamp')(console, '[yyyymmdd HH:MM:ss.l]');
+
+
 // Express and Handlebars setup
 const express = require('express');
 const bodyParser = require('body-parser');
