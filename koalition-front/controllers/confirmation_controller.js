@@ -4,7 +4,7 @@ var jwt = require('jsonwebtoken');
 
 function  execute_get(req,res) {
             var token = jwt.sign({ "source": "jointhekoalition"}, res.app.get("secrets").jwt_secret, {
-                expiresIn: 86400 // expires in 24 hours
+                expiresIn: 7200 // expires in 2 hours
             });
             res.render('confirm',
                 // return translations plus JWT token
@@ -39,7 +39,7 @@ function parse_intput(req,res) {
                 "Other People Inside Confirmation": [],
                 "Special Food Needs": body.particular_food,
                 "Special Mobility Needs": body.particular_mobility,
-                "Special Baby Needs": body.paritcular_babies,
+                "Special Baby Needs": body.particular_babies,
                 "Message": body.message
               };
 
