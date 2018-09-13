@@ -55,8 +55,17 @@ function confirmation_form_submit() {
     // send the collected data as JSON
     xhr.send(JSON.stringify(data));
     
-
+    xhr.onprogress = function () {
+        $("#preview").css("display","none");
+        $("#preloader").css("display","block");
+      };
+      
     xhr.onloadend = function () {
-        alert(xhr.responseText)
+        $("#preloader").css("display","none");
+        if(xhr.status==200) {
+            $("#submit_ok").css("display","block");
+        } else {
+            $("#submit_error").css("display","block");
+        }
     }
 }

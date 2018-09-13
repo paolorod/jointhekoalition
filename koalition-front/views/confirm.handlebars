@@ -65,9 +65,38 @@
             <textarea id="message" class="materialize-textarea" name="message"></textarea>
             <label for="message">{{confirmation.message}}</label>
             <div class="section">
-                  <button id="confirm" class="btn waves-effect waves-light purple lighten-1" name="action" onclick="confirmation_form_submit()">{{navbar.confirmation}}</button>
+                  <a class="btn waves-effect waves-light purple lighten-1 modal-trigger" href="#modal1">{{navbar.confirmation}}</a>
            </div>
 
         </div>
     </div>
 </div>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+        <div id="preview">
+            <h4>{{confirmation.preview}}</h4>
+            <button id="confirm"  href="#!" class="btn waves-effect waves-light purple lighten-1" name="action" onclick="confirmation_form_submit()">{{confirmation.send}}</button>
+        </div>
+    <div id="preloader" style="display: none">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        {{confirmation.in_progress}}
+    </div>
+        <div id="submit_ok" style="display: none">
+            {{confirmation.ok}}
+        </div>
+        <div id="submit_error" style="display: none">
+            {{confirmation.error}}
+        </div>
+    </div>
+  </div>

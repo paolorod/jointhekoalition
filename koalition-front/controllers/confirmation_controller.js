@@ -15,10 +15,10 @@ function  execute_get(req,res) {
 function  execute_post(req,res) {
             
             var token = req.headers['x-auth'];
-            if (!token) return res.status(401).send({ auth: false, message: 'No token provided.' });
+            if (!token) return send_error(res,"No token provided",401);
             
             jwt.verify(token, res.app.get("secrets").jwt_secret, function(err, decoded) {
-                if (err) return res.status(500).send({ auth: false, message: 'Failed to authenticate token.' });    
+                if (err) return send_error(res,"Token expired, please refresh the page",505);   
                 parse_intput(req,res);
               });
 }
@@ -26,7 +26,7 @@ function  execute_post(req,res) {
 function parse_intput(req,res) {
 
             var body = req.body;
-            console.log(body)
+            console.log("POST Authenticated Input received, body: %j",body)
 
             // input parsing
             var main_record = {
@@ -68,7 +68,7 @@ function create_records(main_record,other_participants,participants_created,res)
         }, function(err, child_record) {
             if (err) { 
                 console.error(err);
-                return send_error(res);
+                return send_error(res,"Error while writing child record "+current_child);
             }
             // add to the recursion parent record reference the child id and call recursion through callback
             main_record["Other People Inside Confirmation"].push(child_record.getId());
@@ -80,7 +80,7 @@ function create_records(main_record,other_participants,participants_created,res)
         base('Automatic Confirmations').create(main_record, function(err, record) {
               if (err) { 
                   console.error(err);
-                  return send_error(res);  
+                  return send_error((res,"Error while writing main record"));  
               }
             return send_confirmation_email(main_record,other_participants,res);
           });
@@ -92,13 +92,18 @@ function send_success(res) {
     res.send("Records created successfully");
 }
 
-function send_error(res) {
-    res.statusCode = 505;
-    res.send("Error while writing records");
+function send_error(res,message="Generic error",error_code=500,body=null) {
+    res.statusCode = error_code;
+    if(body) {
+        console.error("Error during confirmation - %d %s - on body %j", message, error_code, body)
+    } else {
+        console.error("Error during confirmation - %d %s", message, error_code)
+    }
+    res.send(message);
 }
 
 function send_confirmation_email(record,other_participants,res) {
-    mail_flag = true
+    mail_flag = false
     if(mail_flag) {
         var transport = res.app.get("mailer-transport");
 
@@ -115,7 +120,7 @@ function send_confirmation_email(record,other_participants,res) {
         transport.sendMail(mailOptions, function(error, info){
             if (error) {
             console.log(error);
-            return send_error(res);
+            return send_error(res,"Error while sending the email");
             } 
             return send_success(res);
         });
