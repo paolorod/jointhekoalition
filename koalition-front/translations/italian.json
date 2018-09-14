@@ -2,7 +2,8 @@
    "global": {
             "couple": "Ariane e Paolo",
             "city":"(Bassano del Grappa)",
-            "date": "15 Giugno 2019 - 10:30"
+            "date": "15 Giugno 2019 - 10:30",
+            "lang-code" :"it"
         },
    "navbar": {
         "welcome":"Benvenuti!",
