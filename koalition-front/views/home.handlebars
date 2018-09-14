@@ -36,7 +36,7 @@
         </div>
         <div class="row center light">
           <div class="col s12 center section">
-            <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
+            {{!-- <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a> --}}
           </div>
         </div>
  </div>
@@ -179,26 +179,28 @@
     <div class="section">
         <h5 class="header col s12 gray light">{{navbar.accomodation}}</h5>
     </div>
+    <p class="flowtext">{{format accomodation.description}}</p>
+    <p class="flowtext">{{format accomodation.dinner}}</p>
   </div>
 
   <div class="container anchor"  id="confirmation">
     <div class="section">
         <h5 class="header col s12 gray light">{{navbar.confirmation}}</h5>
-       
+        <p class="flowtext">{{format confirmation.main_page}}</p>
     </div>
   </div>
 
   <div class="container anchor" id="turist_info"/>
     <div class="section">
         <h5 class="header col s12 gray light">{{navbar.turist_info}}</h5>
-       
+         <p class="flowtext">{{coming_soon}}</p>
     </div>
   </div>
 
   <div class="container anchor" id="wedding_list">
     <div class="section">
         <h5 class="header col s12 gray light">{{navbar.wedding_list}}</h5>
-       
+        <p class="flowtext">{{coming_soon}}</p>
     </div>
   </div>
 

@@ -114,7 +114,7 @@
         },
         "by_train" : {
             "title": "In Treno",
-            "service": "Stiamo organizzando un servizio per accogliervi in stazione",
+            "service": "Stiamo organizzando un servizio per accogliervi in stazione e portarvi nell'ostello che abbiamo riservato.",
             "desc": "Il treno può essere una buona soluzione, specie se venite dall'Italia o in combinata con l'aereo",
             "lines": [ {
                 "from":"Padova",
@@ -154,8 +154,16 @@
         }]
         }
     },
+
+    "accomodation" : {
+        "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possiible muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!",
+        "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando un cena tutti insieme."
+    },
+
+    "coming_soon" : "In arrivo prossimamente! Tornate a visitarci prima del matrimonio!",
     
     "confirmation": {
+        "main_page" : "Per confermare,  tra poco potrete farlo on-line, oppure via mail. Vi chiediamo di farlo entro il [b]1 Marzo 2019[/b]",
         "main_contact":"Contatto Principale",
         "first_name":"Nome",
         "last_name":"Cognome",
