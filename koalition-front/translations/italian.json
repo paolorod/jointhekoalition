@@ -51,7 +51,7 @@
                "time": "Ore 10:30",
                "address" : {
                         "place":"Chiostro del Museo",
-                        "street": "via Bla Bla", 
+                        "street": "Piazza Garibaldi, 34", 
                         "city":"Bassano del Grappa (VI)"
                },
                "links": [{
@@ -68,7 +68,7 @@
                 "time": "subito dopo la cerimonia",
                 "address" : {
                          "place":"Villa Angaran San Giuseppe",
-                         "street": "via Bla Bla", 
+                         "street": "Via Cà Morosini, 41", 
                          "city":"Bassano del Grappa (VI)"
                 },                
                 "links": [{
@@ -94,8 +94,7 @@
     "travelling": {
         "by_plane" : {
             "title": "In Aereo",
-            "desc": "L'aeroporto che vi consigliamo è [b]Venezia[/b]. Ci stiamo organizzando per fare in modo",
-            "service": "Stiamo organizzando un servizio per aiutarvi ad orientarvi e accogliervi, senza che prendiate una macchina.",
+            "desc": "L'aeroporto che vi consigliamo è [b]Venezia[/b], dal quale è facile raggiungere Bassano poi via treno. Ci stiamo organizzando per fare in modo che sia qualcuno in aereoporto ad accogliervi.",
             "connection_label": "Collegamenti",
             "airlines_label":"Compagnie consigliate",
             "aereoport":  {
@@ -163,7 +162,7 @@
     "coming_soon" : "In arrivo prossimamente! Tornate a visitarci prima del matrimonio!",
     
     "confirmation": {
-        "main_page" : "Per confermare,  tra poco potrete farlo on-line, oppure via mail. Vi chiediamo di farlo entro il [b]1 Marzo 2019[/b]",
+        "main_page" : "Per confermare potete farlo via mail, via telefono oppure tornate tra un po' e potrete farlo on-line. Vi chiediamo di farlo entro il [b]1 Marzo 2019[/b]",
         "main_contact":"Contatto Principale",
         "first_name":"Nome",
         "last_name":"Cognome",

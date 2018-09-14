@@ -1,5 +1,5 @@
 
- <div class="navbar-fixed">
+ {{!-- <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <ul class="right hide-on-med-and-down">
@@ -24,7 +24,7 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  </div>
+  </div> --}}
 
   <div class="container">
         <div class="row center light">
@@ -144,33 +144,33 @@
     <div class="row">
         <h5 class="header col s12 gray-text light">{{navbar.travelling}}</h5>
     </div>
-
-    <div id="by_plane" class="row">
-      {{#with travelling.by_plane}}
-      <div class="col s8">
-        <p class="flowtext">{{format desc}}</p>
-        {{#with aereoport}}
-              <h6>{{name}}</h6>
-                  <div>{{../connection_label}}</div>
-                  <div>{{connection}}</div>
-                  <div>{{../airlines_label}}</div>
-                  <div>{{airlines}}</div>
+    <div class="row">
+      <div class="col s12 m12 l4">
+        {{#with travelling.by_plane}}
+          <h5><i class="material-icons">flight_land</i>{{title}}</h5>
+          <p class="flowtext">{{format desc}}</p>
+          {{!-- {{#with aereoport}}
+                <h6>{{name}}</h6>
+                    <div>{{../connection_label}}</div>
+                    <div>{{connection}}</div>
+                    <div>{{../airlines_label}}</div>
+                    <div>{{airlines}}</div>
+          {{/with}} --}}
+        </div> 
         {{/with}}
-      </div>
-      {{/with}}
-      
-     {{#with travelling.by_train}}
-      <div class="col s4">
-        <h5><i class="material-icons">train</i>{{title}}</h5>
-        <p class="flowtext">{{desc}}</p>
-      </div>
-      {{/with}}
-     {{#with travelling.by_car}}
-      <div class="col s4">
-        <h5><i class="material-icons">directions_car</i>{{title}}</h5>
-        <p class="flowtext">{{desc}}</p>
-      </div>
-      {{/with}}
+        
+      {{#with travelling.by_train}}
+        <div class="col s6 m4 l4">
+          <h5><i class="material-icons">train</i>{{title}}</h5>
+          <p class="flowtext">{{desc}}</p>
+        </div>
+        {{/with}}
+      {{#with travelling.by_car}}
+        <div class="col s6 m4 l4">
+          <h5><i class="material-icons">directions_car</i>{{title}}</h5>
+          <p class="flowtext">{{desc}}</p>
+        </div>
+        {{/with}}
     </div>
   </div>
 
