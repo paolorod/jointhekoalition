@@ -152,9 +152,8 @@
 
   <div class="container anchor" id="travelling">
     <div class="row">
-      {{!-- <div class="col push-s2 s8 psuh-m2 m8 l4"><img class="responsive-img polaroid rotate_r4 z-depth-3" src="/images/stazione.jpg"/></div> --}}
-      <h5 class="header col s12 l8">{{navbar.travelling}}</h5>
-      <div class="col s6 m6 l8">
+      <h5 class="header col s12">{{navbar.travelling}}</h5>
+      <div class="col s12">
         {{#with travelling.by_plane}}
           <h5><i class="material-icons">flight_land</i>{{title}}</h5>
           <p class="flowtext">{{format desc}}</p>
@@ -169,18 +168,20 @@
         {{/with}}
         
       {{#with travelling.by_train}}
-        <div class="col s6 m6 l4">
+        <div class="col s4">
           <h5><i class="material-icons">train</i>{{title}}</h5>
           <p class="flowtext">{{desc}}</p>
         </div>
         {{/with}}
       {{#with travelling.by_car}}
-        <div class="col l4">
+        <div class="col s4">
           <h5><i class="material-icons">directions_car</i>{{title}}</h5>
           <p class="flowtext">{{desc}}</p>
         </div>
         {{/with}}
     </div>
+      {{!-- <div class="col s4"><img class="responsive-img polaroid rotate_r4 z-depth-3" src="/images/stazione.jpg"/></div> --}}
+      
   </div>
 
 
