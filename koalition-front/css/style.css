@@ -98,6 +98,13 @@ footer.page-footer {
   font-family: a_little_sunshine;
 }
 
+.language-flag {
+  padding-right: 1vh;
+
+  max-width: 5vh
+}
+
+
 .polaroid {
   border: 1px solid #ddd;
   border-radius: 4px;
