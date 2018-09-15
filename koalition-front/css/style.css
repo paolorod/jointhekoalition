@@ -103,6 +103,10 @@ footer.page-footer {
   max-width: 5vh
 }
 
+.header {
+  padding-top: 3em;
+}
+
 
 .polaroid {
   border: 1px solid #ddd;
