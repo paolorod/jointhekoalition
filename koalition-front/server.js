@@ -103,9 +103,8 @@ app.get('/:lang/', function (req, res) {
   res.render('home',translation.get(req.params.lang));
 });
 
-app.get('/:lang/confirmation', confirmation_controller.execute_get);
-
-app.post('/:lang/confirmation', confirmation_controller.execute_post);
+// app.get('/:lang/confirmation', confirmation_controller.execute_get);
+// app.post('/:lang/confirmation', confirmation_controller.execute_post);
 
 
 
