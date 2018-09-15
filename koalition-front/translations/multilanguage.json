@@ -1,0 +1,183 @@
+{
+   "global": {
+            "couple": "Ariane e Paolo", "Ariane et Paolo", "Ariane and Paolo"
+            "city":"(Bassano del Grappa)",
+            "date": "15 Giugno 2019 - 10:30","15 juin 2019- 10h30", "15th of June 2019- 10:30am"
+            "lang-code" :"it", "fr", "eng"
+        },
+   "navbar": {
+        "welcome":"Benvenuti!", "Bienvenue!"
+        "ceremony_and_party":"Cerimonia e Festa", "Cérémonie et Fête", "Ceremony and Party"
+        "travelling": "Come arrivare", "Comment y arriver", "How to get there"
+        "accomodation": "Ospitalità e Hotel", "Hébergement et hôtel", "Accomodation and Hotels"
+        "confirmation": "Conferma partecipazione", "Confirmer la participation", "Confirm your participation"
+        "turist_info": "Informazioni turistiche", "Informations touristiques", "Touristic information"
+        "wedding_list": "Lista Matrimonio", "Liste de mariage", "Wedding list"
+   },
+   
+   "contact": {
+           "for_doubts": "Per informazioni o dubbi", "Pour toute information ou question", "For any information or question"
+           "telephone": "Telefono", "Téléphone", "Telephone"
+           "also_wa": "(Anche whatsapp)", "Aussi sur whatsapp", "Also on whatsapp"
+           "informations_paragraph": "Per informazioni o dubbi potete contattarci direttamente via email o telefono. Vi ricontatteremo appena possible", "Pour toute information ou question, vous pouvez nous joindre directement par courriel ou par téléphone. En cas d'absence, nous vous recontacterons dès que possible".; "For any information or question, please contact us directly via email or phone. If we are unavailable, we would contact you back asap".         
+    },
+    "welcome": {
+        "dear_friends": "Cari amici e parenti,", "Chers amis et proches", "Dear friends and relatives"
+        "paragraph1": "Siamo molto felici che vogliate condividere con noi questo giorno così importante. Su questo sito abbiamo cercato di mettere tutte le informazioni per vivere al meglio insieme a noi questa giornata.", Nous sommes très heureux que vous souhaitiez vous joindre à nous lors de ce jour si important. Sur ce site, nous nous sommes efforcés de mettre toutes les informations nécessaires afin de profiter au mieux de cette belle journée ensemble.", "We are very happy that you wished to take part in this very important day with us. On this website, we tried to put all the necessary information to live this day together at its best."
+        "value_paragraph": "Abbiamo scelto di organizzare questa giornata in modo che ci rappresenti, secondo alcuni valori importati:", "Nous avons choisi d'organiser cette journée d'une manière qui nous représente, selon certaines valeurs qui nous sont chères.", "We decided to organise this day in a way that represents us, according to certain core values we cherish."
+        "values": [ 
+            {
+                "value":"Condivisione", "Le partage", "Sharing"
+                "explanation":"per chi viene da distante proponiamo una accomodazione condivisa, dove vivere insieme in quei giorni.", "Pour ceux qui viennent de loin et qui le souhaitent, nous proposons un hébergement collectif dans lequel vivre ensemble pendant ce week-end.", "For those of you who come from far away and who wish it, we offer a collective accomodation where we could all stay together over the week-end."
+             },
+             {
+                "value":"Sostenibilità", "L'acessibilité", "Access"
+                "explanation":"tutto è pensato per essere godibile a piedi o con i mezzi pubblici, senza dover prendere un'auto personale.", "Tout est pensé pour être accessible à pieds ou avec les transports en commun, sans que chacun n'ait à prendre une voiture.", "Everything has been thought to be accessible by foot or with public transport, without the need of an individual car."
+             },
+             {
+                "value":"Inclusività e impatto sociale", "L'inclusion et les valeurs sociales", "Inclusion and social impact" 
+                "explanation":"abbiamo scelto una villa immersa nella città e che rimane aperta durante il matrimonio.", "Nous avons choisi une villa au coeur de la ville qui restera ouverte au public durant le mariage", "We found a villa at the heart of the city which will remain open to the public during the wedding."
+             }
+            ]
+    },
+    "cerimony": {
+           "cerimony": {
+               "title": "Cerimonia", "Cérémonie", "Ceremony"
+               "desc":"Ci sposiamo nel chiostro del museo. È un posto importante per Paolo, dato che era l'ingresso della biblioteca dove ha studiato per preparare i suoi primi esami dell'università.", "Nous nous marions dans le jardin du musée de Bassano (le "chiostro"). Cet endroit est symbolique pour Paolo dans la mesure où c'était l'entrée de la bibliothèque dans laquelle il avait l'habitude d'étudier pour préparer ses premiers examens à l'université.", " We are getting married in the garden of the museum of Bassano (the "chiostro"). This place remains a symbol for Paolo in so much as it used to be the entrance of the library where he was used to study for his first university exams."
+       "discover":"Scoprite la storia del museo e del chiostro nei link qui sotto", "Découvrez l'histoire du musée et du chiostro en cliquant sur le lien ci-dessous", "Discover the history of the museum clicking on the link below."
+               "time_label":"Ora", "Heure", "Time"
+               "location_label":"Indirizzo", "Adresse", "Address"
+               "time": "Ore 10:30", "10h30", "10:30 am"
+               "address" : {
+                        "place":"Chiostro del Museo", "Chiostro du Musée", "Chiostro of the Museum"
+                        "street": "Piazza Garibaldi, 34", "34 Piazza Garibaldi", "34 Piazza Garibaldi"
+                        "city":"Bassano del Grappa (VI)", "Bassano del Grappa (VI)", "Bassano del Grappa (VI)
+               },
+               "links": [{
+                "text": "Il museo", "Le musée", "The museum"
+                 "url": "http://www.museibassano.it/sedi/museo-civico";, "http://www.museibassano.it/sedi/museo-civico";, "http://www.museibassano.it/sedi/museo-civico";
+            }]
+           },
+           "party": {
+                "title": "Festa", "Fête", "Party"
+                "desc":"La festa si terrà invece in Villa Angaran San Giuseppe - una villa gestita da una rete di associazioni (Rete Pictor) e dedicata a essere spazio di inclusione sociale.", "Après la cérémonie, la fête aura lieu à la Villa Angaran San Giuseppe - Cette villa est gérée par une fédération d'associations (Rete Pictor) avec pour objectif d'être un espace d'insertion sociale.", "After the ceremony, the party will take place in the Villa Angaran San Giuseppe - this villa is managed by a federation of organisations (Rete Pictor) which aims at transforming the villa into a place of social integration." 
+"discover":"Scoprite i progetti guardando i link qui sotto!", "Découvrez les projets associatifs en cliquant sur le lien ci-dessous!", "Discover the social projects by clicking on the link below!"
+                "time_label":"Ora", "Heure", "Time"
+                "location_label":"Indirizzo", "Adresse", "Address"
+                "time": "subito dopo la cerimonia", "juste après la cérémonie", "just after the ceremony"
+                "address" : {
+                         "place":"Villa Angaran San Giuseppe", "Villa Angaran San Giuseppe", "Villa Angaran San Giuseppe",
+                         "street": "Via Cà Morosini, 41", "41 Via Cà Morosini", "41 Via Cà Morosini",
+                         "city":"Bassano del Grappa (VI)", "Bassano del Grappa (VI)", "Bassano del Grappa (VI)"
+                },                
+                "links": [{
+                    "text":"Rete Pictor",
+                    "url":"http://retepictor.org/";
+                },
+                {
+                    "text":"La villa", "La villa", "The villa"
+                    "url":"http://retepictor.org/lo-spazio/";
+                },
+                {
+                    "text":"La storia", "L'histoire", "The history"
+                    "url":"http://retepictor.org/storia/";
+                }
+            ]
+          },
+           "paragraph1":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.", "Comme cela est d'usage en Italie, la fête se déroulera juste après la cérémonie et nous aurons le plaisir de faire un grand déjeuner tous ensemble qui se prolongera jusqu'au bout de la nuit!", "As it is traditional in Italy, the party will be held just after the ceremony and we will have the great pleasure to have a big lunch together up until nightime!"
+   "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della cerimonia. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",, "Le lieu de la fête, la Villa Angaran San Giuseppe, est à 20-25 minutes à pieds du lieu de la cérémonie. Nous aimerions, pour ceux qui le souhaitent, y aller tous ensemble à pieds du lieu de la cérémonie à la villa, ce qui nous permettra d'en profiter pour vous faire découvrir quelque peu Bassano.", "The location of the party, the Villa Angaran San Giuseppe, is at 20-25 minutes by foot from the place of the ceremony. For those of you who wish to follow us, we would like to all go there by foot from the place of the ceremony to the villa, taking that time in addition to show you a bit of Bassano."
+   "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina.", "Pour les personnes à mobilité réduite, ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.", "For the people who find it difficult to walk, do not worry about it! There will be a car service which will easily help you to reach the party place."
+   "comfy_shoes":"Portate scarpe comode!", "Prenez des chaussures confortables!", "Take comfortable shoes!"
+        },
+    
+    "travelling": {
+        "by_plane" : {
+            "title": "In Aereo", "En avion", "By plane"
+            "desc": "L'aeroporto che vi consigliamo è [b]Venezia[/b], dal quale è facile raggiungere Bassano poi via treno. Ci stiamo organizzando per fare in modo che sia qualcuno in aereoporto ad accogliervi.", "L'aéroport duquel nous vous conseillons d'attérrir est celui de [b]Venise[/b], depuis lequel il est facile de rejoindre Bassano en train. Pour ceux qui arrivent le vendredi, nous nous organisons pour faire en sorte qu'il y ait une personne à l'aéroport pour vous accueillir et vous guider.", "We are advising you to land in [b]Venice[/b] airport, from which it is easy to reach Bassano by train. For those who arrive on the Friday, we are arranging for someone to welcome you in the airport and guide you."
+"connection_label": "Collegamenti", "Liaisons", "Connexions" 
+            "airlines_label":"Compagnie consigliate", "Compagnies conseillées", "recommended companies"
+            "aereoport":  {
+                "name":"Venezia", "Venise", "Venice"
+                "connection": "Bus fino a Venezia Mestre (airbus) e poi treno diretto fino a Bassano", "Bus direct de l'aéroport à la gare de Venise (airbus direction Venezia Mestre), puis train direct de la gare de Venise jusqu'à Bassano del Grappa", "Direct bus from the airport to Venice train station (Direction Venezia Mestre), then direct train from Venice train station to Bassano del Grappa"
+                "airlines":"Easyjet, Vueling, AirFrance", "Easyjet, Vueling, AirFrance", "Easyjet, Vueling, AirFrance"
+                "url": "https://www.veniceairport.it/";
+            },
+            "other_aereoports": [{
+                "name":"Venezia Treviso / Treviso Sant'Angelo (TSF)", "Venise Trévise / Trévise Saint'Angelo (TSF)", "Venice Treviso / Treviso Saint'Angelo (TSF)"
+                "connections":"Bus fino alla stazione dei treni (Treviso Centrale), poi treno fino a Bassano (1 o 2 cambi)", "Bus jusqu'à la gare ferroviaire (Treviso Centrale), puis train jusqu'à Bassano del Grappa (un ou deux changements)", "Bus to the train station (Treviso Centrale), then train to Bassano del Grappa (one or two changes)"
+                "airlines": "Ryanair, Easyjet",
+                "url": "https://www.trevisoairport.it/";
+            }
+        ]
+        },
+        "by_train" : {
+            "title": "In Treno", "En train", "By train"
+            "service": "Stiamo organizzando un servizio per accogliervi in stazione e portarvi nell'ostello che abbiamo riservato.", "Nous organisons un service pour vous accueillir à la gare de Bassano del Grappa et vous emmener à l'auberge de jeunesse que nous avons réservée.", "We are organising a service which will welcome you in Bassano del Grappa train station and take you to the hostel we book."
+            "desc": "Il treno può essere una buona soluzione, specie se venite dall'Italia o in combinata con l'aereo", "Le train est une solution pratique, particulièrement si vous venez d'un autre endroit en Italie ou que vous arrivez par avion", "The train could be a useful means, particularly if you come from another part of Italy or if you arrive by plan."
+            "lines": [ {
+                "from":"Padova", "Padoue", "Padova", 
+                "timetable":" Diretto ogni ora circa", "Un train direct à chaque heure", "A direct train every hour"
+                "price": "5.6 €", "5,60 euros", "5,60 euros"
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V13_S.pdf";
+            },
+            {
+                "from":"Venezia",
+                "timetable":" Diretto ogni 45 minuti circa",
+                "price": "5.6 €",
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V14%20S.pdf";
+            }
+            ]
+        },
+        "by_car" : {
+            "title": "In Macchina", "En voiture", "By car"
+            "desc": "La macchina non è necessaria per gli spostamenti interni, ma potrebbe essere una buona soluzione per chi arriva dall'Italia", "La voiture n'est pas nécessaire pour les déplacements dans la ville (le centre est d'ailleurs piéton). Néanmoins, cela peut être une bonne option pour les personnes venant d'un autre endroit de l'Italie (ou pour ceux qui veulent en profiter pour découvrir la Vénétie!)", "Having a car is not necessary for moving inside the city (in fact, the city centre is pedestrian). However, it could be a good option for people coming from another place in Italy (or those of you who would like to take this time to travel around in Veneto!)"
+            "parcheggio_info":"La zona della cerimonia è a traffico limitato. Vi consigliamo di parcheggiare fuori e entrare in centro a piedi. Per la festa, si può entrare con le macchine e parcheggiare sul retro.", "La zone qui entoure le lieu de la cérémonie est piéton. Nous vous informons qu'il faut vous garer à l'extérieur du centre et d'y accéder à pieds. En ce qui concerne le lieu de la fête, on peut y accéder avec la voiture e la garer dans le parking à l'arrière de la Villa.", "The surrounding of the location of the ceremony is pedestrian. We are informing you that you have to park outside from the city centre and access it by foot. As far as the party place is concerned, you can reach it by car and parl it in the car park on the back of the Villa."
+"parcheggi": [{
+                    "name": "Parcheggio Prato 1", "Parking Prato 1", "Car park Prato 1"
+                    "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Prato-1";,
+                    "walking distance": {
+                        "ceremony":"",
+                        "party":""
+                    },
+                    "price":"free", "gratuit", "free"
+            },
+            {
+                "name": "Parcheggio Il Ponte", "Parking Il Ponte", "Car park Il Ponte"
+                "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Il-ponte";,
+                "walking distance": {
+                    "ceremony":"",
+                    "party":""
+                },
+                "price":"1.20 all'ora", "1,20 euros de l'heure", "1.20 euros the hour"
+        }]
+        }
+    },
+    "accomodation" : {
+        "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possiible muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!", " Pour tous ceux qui viendraient de loin, nous avons préparé un [b]service d'hébergement[/b] dans une auberge de jeunesse, que nous vous invitons à utiliser. L'auberge est entièrement loué pour l'occasion et l'infrastructure est aussi adaptée pour recevoir des familles. À partir de l'auberge, il est facile de se rendre dans le centre de Bassano ainsi que dans les différents lieux du mariage. Plus d'informations à venir !", "For those of you who come from far away, we prepared an [b]accommodation service[/b] in a hostel that we recommend you to use. The hostel is wholly booked for the wedding and the infrastructure is also compatible with families. From the hostel, reaching the centre of Bassano as well as all the places of the wedding is easy. More information yet to come!"
+        "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando un cena tutti insieme.", "Pour ceux qui arrivent la veille du mariage, nous sommes en train d'organiser également un dîner tous ensemble.", "For those of you arriving the day before the wedding, we are also planning on having a dinner  altogether." 
+    },
+    "coming_soon" : "In arrivo prossimamente! Tornate a visitarci prima del matrimonio!", "Plus de détails prochainement ! Revenez nous rendre visite avant le mariage !", "More details to be added soon! Come back to visit us before the wedding!" 
+    
+    "confirmation": {
+        "main_page" : "Per confermare potete farlo via mail, via telefono oppure tornate tra un po' e potrete farlo on-line. Vi chiediamo di farlo prima del [b]1 Marzo 2019[/b]", "Vous pouvez confirmer votre présence par courriel, par téléphone, ou revenez sur le site dans peu de temps car cela sera bientôt possible en ligne ! Nous vous prions de bien vouloir confirmer votre présence avant le [b]1er mars 2019[b].", "You can RSVP via email, phone or coming back on the website in a moment because it will be possible to do it online! We gently ask you to confirm before the [b]1st of March 2019[b]."
+        "main_contact":"Contatto Principale", "Contact principal", "Main contact" 
+        "first_name":"Nome", "Prénom", "first name" 
+        "last_name":"Cognome", "Nom", "Last Name
+        "telephone":"Telefono", "Téléphone", "Telephone 
+        "email":"Email",
+        "other_people":"Altre Persone", "Autre personne", "Another person" 
+        "other_people_list":"Altre Persone che volete confermare", "Autre personne que vous voulez confirmer", "The confirmation of another guest" 
+        "info":"Informazioni Aggiuntive", "Autre information", "Other information" 
+        "need_hostel":"Vogliamo usufruire dell'ospitalità in ostello", "Nous voudrions être hébergé/e/s dans l'auberge", "We would like to be hosted in the hostel" 
+        "dinner_14":"Partecipiamo alla cena del 14 sera per gli ospiti lontani", "Nous participons au dîner du 14 au soir pour les invités venant de loin.", "We participate to the dinner of the 14th of June designed for the guests who come from far." 
+        "particular-food":"Alimentazione (allergie/intolleranze, vegeteriano, kosher, halal...)", "Alimentation (allergie, intolérance, végétarien, kosher, halal...)", "Specific food requirement (allergy, intolerance, vegetarianism, kosher, halal...)" 
+        "particular-mobility":"Mobilità / Ambiente (problemi di deambulazione, bisogni sulle camere...)", "Mobilité / conditions spécifiques (mobilité réduite, besoins spéciaux pour les chambres...)", "Mobility / specific conditions (mobility impairment, special needs for the bedrooms...)" 
+        "particular-babies": "Esigenze specifiche legate ai bambini", "Exigences spécifiques concernant les enfants", "Special needs for the children" 
+        "message":"Messaggio per gli sposi", "Message pour les mariés", "Message for the bride and groom" 
+        "send":"Invia!", "Envoyé !", "Send!" 
+        "preview":"Anteprima Conferma",
+        "in_progress":"Invio in corso", "Envoi en cours", "sending in progress" 
+        "ok":"Conferma ricevuta! Grazie mille! Non vediamo l'ora di vedervi e di festeggiare con voi!", "Nous avons bien reçu votre confirmation ! Merci mille fois ! Nous attendons avec impartie ce de vous voir et de fêter avec vous", "We received your confirmation! Thank you so much! We cannot wait to see you and party with you!" 
+        "error": "Un errore è avvenuto durante l'invio della tua conferma.", "Une erreur est survenue durant l'envoi de la confirmation.", "An error happened during the sending of the confirmation." Per favore contatta paolo.ariane@jointhekoalition.eu per confermare.", " Pouvez-vous s'il vous plaît contacter Paolo.ariane@jointhekoalition.eu pour confirmer. "
+    }
+}

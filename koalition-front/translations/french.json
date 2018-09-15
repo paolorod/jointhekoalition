@@ -3,7 +3,7 @@
             "couple": "Ariane et Paolo",
             "city":"(Bassano del Grappa)",
             "date": "15 juin 2019 - 10h30", 
-            "lang-code" :"fr", 
+            "lang-code" :"fr" 
         },
    "navbar": {
         "welcome": "Bienvenue!",
@@ -12,14 +12,14 @@
         "accomodation": "Hébergement et hôtel",
         "confirmation": "Confirmer la participation",
         "turist_info": "Informations touristiques",
-        "wedding_list": "Liste de mariage",
+        "wedding_list": "Liste de mariage"
    },
    
    "contact": {
            "for_doubts": "Pour toute information ou question",
            "telephone": "Téléphone",
            "also_wa": "Aussi sur whatsapp",
-           "informations_paragraph": "Pour toute information ou question, vous pouvez nous joindre directement par courriel ou par téléphone. En cas d'absence, nous vous recontacterons dès que possible",  
+           "informations_paragraph": "Pour toute information ou question, vous pouvez nous joindre directement par courriel ou par téléphone. En cas d'absence, nous vous recontacterons dès que possible"  
     },
     "welcome": {
         "dear_friends": "Chers amis et proches",
@@ -51,7 +51,7 @@
                "address" : {
                         "place": "Chiostro du Musée",
                         "street": "34 Piazza Garibaldi",
-                        "city": "Bassano del Grappa (VI)",
+                        "city": "Bassano del Grappa (VI)"
                },
                "links": [{
                 "text": "Le musée",
@@ -87,7 +87,7 @@
         "paragraph1":"Comme cela est d'usage en Italie, la fête se déroulera juste après la cérémonie et nous aurons le plaisir de faire un grand déjeuner tous ensemble qui se prolongera jusqu'au bout de la nuit!", 
         "paragraph2": "Le lieu de la fête, la Villa Angaran San Giuseppe, est à 20-25 minutes à pieds du lieu de la cérémonie. Nous aimerions, pour ceux qui le souhaitent, y aller tous ensemble à pieds du lieu de la cérémonie à la villa, ce qui nous permettra d'en profiter pour vous faire découvrir quelque peu Bassano.",
         "paragraph3": "Pour les personnes à mobilité réduite, ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.",
-        "comfy_shoes": "Prenez des chaussures confortables!",
+        "comfy_shoes": "Prenez des chaussures confortables!"
         },
     
     "travelling": {
@@ -113,7 +113,7 @@
         "by_train" : {
             "title": "En train",
             "service": "Nous organisons un service pour vous accueillir à la gare de Bassano del Grappa et vous emmener à l'auberge de jeunesse que nous avons réservée.", 
-            "desc": "Le train est une solution pratique, particulièrement si vous venez d'un autre endroit en Italie ou que vous arrivez par avion", "The train could be a useful means, particularly if you come from another part of Italy or if you arrive by plan."
+            "desc": "Le train est une solution pratique, particulièrement si vous venez d'un autre endroit en Italie ou que vous arrivez par avion",
             "lines": [ {
                 "from": "Padoue",
                 "timetable": "Un train direct à chaque heure",
@@ -134,21 +134,21 @@
             "parcheggio_info": "La zone qui entoure le lieu de la cérémonie est piéton. Nous vous informons qu'il faut vous garer à l'extérieur du centre et d'y accéder à pieds. En ce qui concerne le lieu de la fête, on peut y accéder avec la voiture e la garer dans le parking à l'arrière de la Villa.", 
             "parcheggi": [{
                     "name": "Parking Prato 1",
-                    "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Prato-1";,
+                    "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Prato-1",
                     "walking distance": {
                         "ceremony":"",
                         "party":""
                     },
-                    "price":"free", "gratuit", "free"
+                    "price": "gratuit"
             },
             {
                 "name": "Parking Il Ponte",
-                "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Il-ponte";,
+                "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Il-ponte",
                 "walking distance": {
                     "ceremony":"",
                     "party":""
                 },
-                "price": "1,20 euros de l'heure",
+                "price": "1,20 euros de l'heure"
         }]
         }
     },
