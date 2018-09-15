@@ -1,6 +1,182 @@
 {
    "global": {
             "couple": "Ariane et Paolo",
-             "date": "14 Juin 2019"
-        } 
+            "city":"(Bassano del Grappa)",
+            "date": "15 juin 2019 - 10h30", 
+            "lang-code" :"fr", 
+        },
+   "navbar": {
+        "welcome": "Bienvenue!",
+        "ceremony_and_party":  "Cérémonie et Fête",
+        "travelling": "Comment y arriver",
+        "accomodation": "Hébergement et hôtel",
+        "confirmation": "Confirmer la participation",
+        "turist_info": "Informations touristiques",
+        "wedding_list": "Liste de mariage",
+   },
+   
+   "contact": {
+           "for_doubts": "Pour toute information ou question",
+           "telephone": "Téléphone",
+           "also_wa": "Aussi sur whatsapp",
+           "informations_paragraph": "Pour toute information ou question, vous pouvez nous joindre directement par courriel ou par téléphone. En cas d'absence, nous vous recontacterons dès que possible",  
+    },
+    "welcome": {
+        "dear_friends": "Chers amis et proches",
+        "paragraph1":  "Nous sommes très heureux que vous souhaitiez vous joindre à nous lors de ce jour si important. Sur ce site, nous nous sommes efforcés de mettre toutes les informations nécessaires afin de profiter au mieux de cette belle journée ensemble.",
+        "value_paragraph": "Nous avons choisi d'organiser cette journée d'une manière qui nous représente, selon certaines valeurs qui nous sont chères.", 
+        "values": [ 
+            {
+                "value": "Le partage",
+                "explanation": "Pour ceux qui viennent de loin et qui le souhaitent, nous proposons un hébergement collectif dans lequel vivre ensemble pendant ce week-end." 
+             },
+             {
+                "value": "L'acessibilité",
+                "explanation":  "Tout est pensé pour être accessible à pieds ou avec les transports en commun, sans que chacun n'ait à prendre une voiture."
+             },
+             {
+                "value": "L'inclusion et les valeurs sociales",
+                "explanation": "Nous avons choisi une villa au coeur de la ville qui restera ouverte au public durant le mariage" 
+             }
+            ]
+    },
+    "cerimony": {
+           "cerimony": {
+               "title": "Cérémonie",
+               "desc": "Nous nous marions dans le jardin du musée de Bassano (le \"chiostro\"). Cet endroit est symbolique pour Paolo dans la mesure où c'était l'entrée de la bibliothèque dans laquelle il avait l'habitude d'étudier pour préparer ses premiers examens à l'université.",
+               "discover": "Découvrez l'histoire du musée et du chiostro en cliquant sur le lien ci-dessous",
+               "time_label":  "Heure",
+               "location_label": "Adresse", 
+               "time": "10h30", 
+               "address" : {
+                        "place": "Chiostro du Musée",
+                        "street": "34 Piazza Garibaldi",
+                        "city": "Bassano del Grappa (VI)",
+               },
+               "links": [{
+                "text": "Le musée",
+                 "url": "http://www.museibassano.it/sedi/museo-civico"
+            }]
+           },
+           "party": {
+                "title": "Fête",
+                "desc":"Après la cérémonie, la fête aura lieu à la Villa Angaran San Giuseppe - Cette villa est gérée par une fédération d'associations (Rete Pictor) avec pour objectif d'être un espace d'insertion sociale.",  
+                "discover": "Découvrez les projets associatifs en cliquant sur le lien ci-dessous!",
+                "time_label": "Heure",
+                "location_label": "Adresse",
+                "time": "juste après la cérémonie",
+                "address" : {
+                         "place": "Villa Angaran San Giuseppe",
+                         "street": "Via Cà Morosini, 41", 
+                         "city":"Bassano del Grappa (VI)"
+                },                
+                "links": [{
+                    "text":"Rete Pictor",
+                    "url":"http://retepictor.org/"
+                },
+                {
+                    "text":"La villa", 
+                    "url":"http://retepictor.org/lo-spazio/"
+                },
+                {
+                    "text":"L'histoire",
+                    "url":"http://retepictor.org/storia/"
+                }
+            ]
+          },
+        "paragraph1":"Comme cela est d'usage en Italie, la fête se déroulera juste après la cérémonie et nous aurons le plaisir de faire un grand déjeuner tous ensemble qui se prolongera jusqu'au bout de la nuit!", 
+        "paragraph2": "Le lieu de la fête, la Villa Angaran San Giuseppe, est à 20-25 minutes à pieds du lieu de la cérémonie. Nous aimerions, pour ceux qui le souhaitent, y aller tous ensemble à pieds du lieu de la cérémonie à la villa, ce qui nous permettra d'en profiter pour vous faire découvrir quelque peu Bassano.",
+        "paragraph3": "Pour les personnes à mobilité réduite, ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.",
+        "comfy_shoes": "Prenez des chaussures confortables!",
+        },
+    
+    "travelling": {
+        "by_plane" : {
+            "title": "En avion",
+            "desc": "L'aéroport duquel nous vous conseillons d'attérrir est celui de [b]Venise[/b], depuis lequel il est facile de rejoindre Bassano en train. Pour ceux qui arrivent le vendredi, nous nous organisons pour faire en sorte qu'il y ait une personne à l'aéroport pour vous accueillir et vous guider.",
+            "connection_label":  "Liaisons", 
+            "airlines_label": "Compagnies conseillées", 
+            "aereoport":  {
+                "name": "Venise",
+                "connection": "Bus direct de l'aéroport à la gare de Venise (airbus direction Venezia Mestre), puis train direct de la gare de Venise jusqu'à Bassano del Grappa",
+                "airlines":  "Easyjet, Vueling, AirFrance",
+                "url": "https://www.veniceairport.it/"
+            },
+            "other_aereoports": [{
+                "name": "Venise Trévise / Trévise Saint'Angelo (TSF)", 
+                "connections": "Bus jusqu'à la gare ferroviaire (Treviso Centrale), puis train jusqu'à Bassano del Grappa (un ou deux changements)",
+                "airlines": "Ryanair, Easyjet",
+                "url": "https://www.trevisoairport.it/"
+            }
+        ]
+        },
+        "by_train" : {
+            "title": "En train",
+            "service": "Nous organisons un service pour vous accueillir à la gare de Bassano del Grappa et vous emmener à l'auberge de jeunesse que nous avons réservée.", 
+            "desc": "Le train est une solution pratique, particulièrement si vous venez d'un autre endroit en Italie ou que vous arrivez par avion", "The train could be a useful means, particularly if you come from another part of Italy or if you arrive by plan."
+            "lines": [ {
+                "from": "Padoue",
+                "timetable": "Un train direct à chaque heure",
+                "price": "5,60 euros", 
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V13_S.pdf"
+            },
+            {
+                "from":"Venise",
+                "timetable": "Un train direct toutes les 45 minutes",
+                "price": "5,60 euros", 
+                "url":"http://www.trenitalia.com/cms-file/allegati/trenitalia_2014/informazioni/orario_digitale/V14%20S.pdf"
+            }
+            ]
+        },
+        "by_car" : {
+            "title": "En voiture",
+            "desc":  "La voiture n'est pas nécessaire pour les déplacements dans la ville (le centre est d'ailleurs piéton). Néanmoins, cela peut être une bonne option pour les personnes venant d'un autre endroit de l'Italie (ou pour ceux qui veulent en profiter pour découvrir la Vénétie!)",
+            "parcheggio_info": "La zone qui entoure le lieu de la cérémonie est piéton. Nous vous informons qu'il faut vous garer à l'extérieur du centre et d'y accéder à pieds. En ce qui concerne le lieu de la fête, on peut y accéder avec la voiture e la garer dans le parking à l'arrière de la Villa.", 
+            "parcheggi": [{
+                    "name": "Parking Prato 1",
+                    "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Prato-1";,
+                    "walking distance": {
+                        "ceremony":"",
+                        "party":""
+                    },
+                    "price":"free", "gratuit", "free"
+            },
+            {
+                "name": "Parking Il Ponte",
+                "url": "http://www.comune.bassano.vi.it/Vivi-la-citta/Parcheggi/Parcheggio-Il-ponte";,
+                "walking distance": {
+                    "ceremony":"",
+                    "party":""
+                },
+                "price": "1,20 euros de l'heure",
+        }]
+        }
+    },
+    "accomodation" : {
+        "description" :  "Pour tous ceux qui viendraient de loin, nous avons préparé un [b]service d'hébergement[/b] dans une auberge de jeunesse, que nous vous invitons à utiliser. L'auberge est entièrement loué pour l'occasion et l'infrastructure est aussi adaptée pour recevoir des familles. À partir de l'auberge, il est facile de se rendre dans le centre de Bassano ainsi que dans les différents lieux du mariage. Plus d'informations à venir !", 
+        "dinner" : "Pour ceux qui arrivent la veille du mariage, nous sommes en train d'organiser également un dîner tous ensemble." 
+    },
+    "coming_soon" : "Plus de détails prochainement ! Revenez nous rendre visite avant le mariage !", 
+    
+    "confirmation": {
+        "main_page" : "Vous pouvez confirmer votre présence par courriel, par téléphone, ou revenez sur le site dans peu de temps car cela sera bientôt possible en ligne ! Nous vous prions de bien vouloir confirmer votre présence avant le [b]1er mars 2019[b].", 
+        "main_contact": "Contact principal",
+        "first_name": "Prénom", 
+        "last_name": "Nom", 
+        "telephone": "Téléphone",
+        "email":"Email",
+        "other_people": "Autre personne", 
+        "other_people_list": "Autre personne que vous voulez confirmer",
+        "info": "Autre information", 
+        "need_hostel": "Nous voudrions être hébergé/e/s dans l'auberge",
+        "dinner_14": "Nous participons au dîner du 14 au soir pour les invités venant de loin.", 
+        "particular-food": "Alimentation (allergie, intolérance, végétarien, kosher, halal...)", 
+        "particular-mobility": "Mobilité / conditions spécifiques (mobilité réduite, besoins spéciaux pour les chambres...)", 
+        "particular-babies": "Exigences spécifiques concernant les enfants",
+        "message":"Messaggio per gli sposi",
+        "send": "Envoyé !", 
+        "in_progress":  "Envoi en cours", 
+        "ok": "Nous avons bien reçu votre confirmation ! Merci mille fois ! Nous attendons avec impartie ce de vous voir et de fêter avec vous", 
+        "error": "Une erreur est survenue durant l'envoi de la confirmation. Pouvez-vous s'il vous plaît contacter Paolo.ariane@jointhekoalition.eu pour confirmer. "
+    }
 }
