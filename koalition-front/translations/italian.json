@@ -29,7 +29,7 @@
         "values": [
             {
                 "value":"Condivisione",
-                "explanation":"per chi viene da distante proponiamo una accomodazione condivisa, dove vivere insieme in quei giorni."
+                "explanation":"per chi viene da distante proponiamo una sistemazione in ospitalità condivisa, dove vivere insieme in quei giorni."
              },
              {
                 "value":"Sostenibilità",
@@ -37,7 +37,7 @@
              },
              {
                 "value":"Inclusività e impatto sociale",
-                "explanation":"abbiamo scelto una villa immersa nella città e che rimane aperta durante il matrimonio."
+                "explanation":"abbiamo scelto una villa connessa alla città e che rimane aperta durante il matrimonio."
              }
             ]
     },
@@ -87,8 +87,8 @@
             ]
           },
            "paragraph1":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
-           "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della cerimonia. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, approffitandone per mostrarvi un po' Bassano.",
-           "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina",
+           "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della cerimonia. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, cogliendo l'occasione per mostrarvi un po' Bassano.",
+           "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina.",
            "comfy_shoes":"Portate scarpe comode!"
         },
     
@@ -115,7 +115,7 @@
         "by_train" : {
             "title": "In Treno",
             "service": "Stiamo organizzando un servizio per accogliervi in stazione e portarvi nell'ostello che abbiamo riservato.",
-            "desc": "Il treno può essere una buona soluzione, specie se venite dall'Italia o in combinata con l'aereo",
+            "desc": "Il treno può essere una buona soluzione, specie se venite dall'Italia o in combinata con l'aereo.",
             "lines": [ {
                 "from":"Padova",
                 "timetable":" Diretto ogni ora circa",
@@ -132,7 +132,7 @@
         },
         "by_car" : {
             "title": "In Macchina",
-            "desc": "La macchina non è necessaria per gli spostamenti interni, ma potrebbe essere una buona soluzione per chi arriva dall'Italia",
+            "desc": "La macchina non è necessaria per gli spostamenti interni, ma potrebbe essere una buona soluzione per chi arriva dall'Italia.",
             "parcheggio_info":"La zona della cerimonia è a traffico limitato. Vi consigliamo di parcheggiare fuori e entrare in centro a piedi. Per la festa, si può entrare con le macchine e parcheggiare sul retro.",
             "parcheggi": [{
                     "name": "Parcheggio Prato 1",
@@ -156,7 +156,7 @@
     },
 
     "accomodation" : {
-        "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possiible muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!",
+        "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possibile muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!",
         "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando un cena tutti insieme."
     },
 
