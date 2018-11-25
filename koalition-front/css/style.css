@@ -191,3 +191,11 @@ footer.page-footer {
   height: 400px;
   background-color: grey;
 }
+
+.btn-spaced {
+  margin-top: 1.5em;
+}
+
+.spaced-top {
+  margin-top: 1.5em;
+}

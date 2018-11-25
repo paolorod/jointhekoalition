@@ -14,7 +14,6 @@
         "turist_info": "Informations touristiques",
         "wedding_list": "Liste de mariage"
    },
-   
    "contact": {
            "for_doubts": "Pour toute information ou question",
            "telephone": "Téléphone",
@@ -89,7 +88,6 @@
         "paragraph3": "Pour les personnes à mobilité réduite, ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.",
         "comfy_shoes": "Prenez des chaussures confortables!"
         },
-    
     "travelling": {
         "by_plane" : {
             "title": "En avion",
@@ -157,26 +155,52 @@
         "dinner" : "Pour ceux qui arrivent la veille du mariage, nous sommes en train d'organiser également un dîner tous ensemble." 
     },
     "coming_soon" : "Plus de détails prochainement ! Revenez nous rendre visite avant le mariage !", 
-    
     "confirmation": {
-        "main_page" : "Vous pouvez confirmer votre présence par courriel, par téléphone, ou revenez sur le site dans peu de temps car cela sera bientôt possible en ligne ! Nous vous prions de bien vouloir confirmer votre présence avant le [b]1er mars 2019[b].", 
+        "main_page" : "Vous pouvez confirmer votre présence par courriel, par téléphone, ou en ligne ! Nous vous prions de bien vouloir confirmer votre présence avant le [b]1er mars 2019[/b].", 
         "main_contact": "Contact principal",
         "first_name": "Prénom", 
         "last_name": "Nom", 
         "telephone": "Téléphone",
         "email":"Email",
         "other_people": "Autre personne", 
-        "other_people_list": "Autre personne que vous voulez confirmer",
+        "other_people_list": "Insérez les personnes de votre famille que vous voulez confirmer, en utilisant la touche \"Entrer\" après chaque nom",
         "info": "Autre information", 
-        "need_hostel": "Nous voudrions être hébergé/e/s dans l'auberge",
-        "dinner_14": "Nous participons au dîner du 14 au soir pour les invités venant de loin.", 
+        "need_hostel": "Nous voudrions être hébergé/e/s dans l'auberge offert",
+        "dinner_14": "Nous participons au dîner du 14 au soir pour les invités venant de loin", 
         "particular-food": "Alimentation (allergie, intolérance, végétarien, kosher, halal...)", 
         "particular-mobility": "Mobilité / conditions spécifiques (mobilité réduite, besoins spéciaux pour les chambres...)", 
         "particular-babies": "Exigences spécifiques concernant les enfants",
-        "message":"Messaggio per gli sposi",
+        "message":"Message pour les mariés",
         "send": "Envoyé !", 
         "in_progress":  "Envoi en cours", 
-        "ok": "Nous avons bien reçu votre confirmation ! Merci mille fois ! Nous attendons avec impartie ce de vous voir et de fêter avec vous", 
-        "error": "Une erreur est survenue durant l'envoi de la confirmation. Pouvez-vous s'il vous plaît contacter Paolo.ariane@jointhekoalition.eu pour confirmer. "
+        "ok": "Nous avons bien reçu votre confirmation ! Merci mille fois ! Nous attendons avec impatience de vous voir pour fêter avec vous!", 
+        "error": "Une erreur est survenue durant l'envoi de la confirmation. Pourriez-vous s'il vous plaît contacter ariane.paolo@jointhekoalition.eu pour confirmer?",
+        "confirmation_message" : "Souhaitez vous l'envoyer? :-)",
+        "return": "Page d'accueil ",
+        "reset" : "Reinitialiser"
+    },
+
+    "turistic_info" : {
+        "bassano": {
+            "title": "",
+            "grappa:": {
+                "title": "",
+                "desc": "Le musée de la grappa et sa distillerie (Il Poli museo della grappa): la distillerie de l’alcool iconique, le grappa, ouvre ses portes aux visiteurs avec un joli petit musée que l’on peut visiter tous les jours de 9h à 19h30. Le tarif est de 3 euros, comprenant la visite du musée et de la distillerie, ainsi qu’une dégustation de cinq alcools différents. Jetez-y un coup d’œil ici :",
+                "link": "https://www.poligrappa.com/ita/geografia/poli-museo-grappa-bassano.php"
+            },
+            "museum":{
+                "title": "",
+                "desc": "Le musée de Bassano del Grappa (il museo civico di Bassano): c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
+                "link": "http://www.museibassano.it/sedi/museo-civico "
+            },
+            "historic-town":{
+                "title":"",
+                "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes."
+            },
+            "food": {
+                "title":""
+            }
+
+        }
     }
 }

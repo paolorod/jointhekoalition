@@ -103,9 +103,10 @@ function send_error(res,message="Generic error",error_code=500,body=null) {
 }
 
 function send_confirmation_email(record,other_participants,res) {
-    mail_flag = false
+    mail_flag = true
     if(mail_flag) {
         var transport = res.app.get("mailer-transport");
+        console.log('Email sent');
 
         // restore the old array content in order to have a nice display in the email
         record["Other People Inside Confirmation"] = other_participants

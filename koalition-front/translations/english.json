@@ -2,7 +2,7 @@
    "global": {
             "couple": "Ariane and Paolo",
             "city":"(Bassano del Grappa)",
-            "date": "15th of June 2019- 10:30am",
+            "date": "15[upper]th[/upper] of June 2019 - 10:30 am",
             "lang-code" : "en"
         },
    "navbar": {
@@ -14,7 +14,6 @@
         "turist_info": "Touristic information",
         "wedding_list": "Wedding list"
    },
-   
    "contact": {
            "for_doubts": "For any information or question",
            "telephone": "Telephone",
@@ -158,25 +157,27 @@
     },
     "coming_soon" : "More details to be added soon! Come back to visit us before the wedding!" ,
     "confirmation": {
-        "main_page" : "You can RSVP via email, phone or coming back on the website in a moment because it will be possible to do it online! We gently ask you to confirm before the [b]1st of March 2019[b].",
+        "main_page" : "You can RSVP via email, phone or online! We gently ask you to confirm before the [b]1st of March 2019[/b].",
         "main_contact": "Main contact",
         "first_name": "First name",
         "last_name": "Last Name",
         "telephone":  "Telephone ",
         "email":"Email",
         "other_people": "Other people", 
-        "other_people_list": "The confirmation of other guests beside the main contact", 
+        "other_people_list": "Insert the other people of your family that you want to confirm, pressing the \"Enter\" key after each", 
         "info": "Other information", 
-        "need_hostel": "We would like to be hosted in the hostel", 
+        "need_hostel": "We would like to be hosted in the hotel/hostel offered", 
         "dinner_14": "We participate to the dinner of the 14th of June designed for the guests who come from far.",
         "particular-food":  "Specific food requirement (allergy, intolerance, vegetarianism, kosher, halal...)",
         "particular-mobility": "Mobility / specific conditions (mobility impairment, special needs for the bedrooms...)",
         "particular-babies": "Special needs for the children",
         "message": "Message for the bride and groom",
         "send": "Send!",
-        "preview": "Preview",
         "in_progress": "Sending in progress", 
         "ok": "We received your confirmation! Thank you so much! We cannot wait to see you and party with you!",
-        "error": "An error happened during the sending of the confirmation. Please contact paolo.ariane@jointhekoalition.eu to confirm." 
+        "error": "An error happened during the sending of the confirmation. Please contact ariane.paolo@jointhekoalition.eu to confirm.", 
+        "confirmation_message" : "Are you sure? :-)",
+        "return": "Home page ",
+        "reset" : "Reset"
     }
 }

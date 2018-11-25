@@ -58,6 +58,8 @@ function confirmation_form_submit() {
     xhr.onprogress = function () {
         $("#preview").css("display","none");
         $("#preloader").css("display","block");
+        $("#form").css("display","none");
+        $("#sendbutton").css("display","none");
       };
       
     xhr.onloadend = function () {

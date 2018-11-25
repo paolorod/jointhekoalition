@@ -39,13 +39,13 @@
         <div class="row center light">
           <div class="col s12 center section">
             <h1 class=" purple-text text-lighten-2 logo">{{global.couple}}</h2>
-            <h5 class="light date">{{global.date}}</h5>
+            <h5 class="light date">{{format global.date}}</h5>
             <h5 class="light city">{{global.city}}</h5>
           </div>
         </div>
         <div class="row center light">
           <div class="col s12 center section">
-            {{!-- <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a> --}}
+             <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
           </div>
         </div>
  </div>
@@ -168,13 +168,13 @@
         {{/with}}
         
       {{#with travelling.by_train}}
-        <div class="col s4">
+        <div class="col s12 m6 l6">
           <h5><i class="material-icons">train</i>{{title}}</h5>
           <p class="flowtext">{{desc}}</p>
         </div>
         {{/with}}
       {{#with travelling.by_car}}
-        <div class="col s4">
+        <div class="col s12 m6 l6">
           <h5><i class="material-icons">directions_car</i>{{title}}</h5>
           <p class="flowtext">{{desc}}</p>
         </div>
@@ -200,8 +200,9 @@
              <div class="col s12 m8 l8">
                <h5 class="header col s12 gray light">{{navbar.confirmation}}</h5>
                <p class="flowtext">{{format confirmation.main_page}}</p>
+               <a id="sendbutton" class="btn waves-effect waves-light purple lighten-1 modal-trigger btn-spaced" href="{{global.lang-code}}/confirmation">{{navbar.confirmation}}</a>
              </div>
-             <div class="col s12 m4 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3" src="/images/fairepart/{{global.lang-code}}-4.jpg"/></div>
+             <div class="col s12 m4 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3 spaced-top" src="/images/fairepart/{{global.lang-code}}-4.jpg"/></div>
         </div>
     </div>
   </div>

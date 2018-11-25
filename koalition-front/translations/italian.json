@@ -14,14 +14,12 @@
         "turist_info": "Informazioni turistiche",
         "wedding_list": "Lista Matrimonio"
    },
-   
    "contact": {
            "for_doubts": "Per informazioni o dubbi",
            "telephone": "Telefono",
            "also_wa": "(Anche whatsapp)",
            "informations_paragraph": "Per informazioni o dubbi potete contattarci direttamente via email o telefono. Vi ricontatteremo appena possible"            
     },
-
     "welcome": {
         "dear_friends": "Cari amici e parenti,",
         "paragraph1": "Siamo molto felici che vogliate condividere con noi questo giorno così importante. Su questo sito abbiamo cercato di mettere tutte le informazioni per vivere al meglio insieme a noi questa giornata.",
@@ -41,7 +39,6 @@
              }
             ]
     },
-
     "cerimony": {
            "cerimony": {
                "title": "Cerimonia",
@@ -91,7 +88,6 @@
            "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina.",
            "comfy_shoes":"Portate scarpe comode!"
         },
-    
     "travelling": {
         "by_plane" : {
             "title": "In Aereo",
@@ -154,34 +150,33 @@
         }]
         }
     },
-
     "accomodation" : {
         "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possibile muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!",
         "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando un cena tutti insieme."
     },
-
     "coming_soon" : "In arrivo prossimamente! Tornate a visitarci prima del matrimonio!",
-    
     "confirmation": {
-        "main_page" : "Per confermare potete farlo via mail, via telefono oppure tornate tra un po' e potrete farlo on-line. Vi chiediamo di farlo entro il [b]1 Marzo 2019[/b]",
+        "main_page" : "Per confermare potete farlo via mail, via telefono oppure on-line. Vi chiediamo di farlo entro il [b]1 Marzo 2019[/b]",
         "main_contact":"Contatto Principale",
         "first_name":"Nome",
         "last_name":"Cognome",
         "telephone":"Telefono",
         "email":"Email",
         "other_people":"Altre Persone",
-        "other_people_list":"Altre Persone che volete confermare",
+        "other_people_list":"Inserite le persone del vostro nucleo familiare che volete confermare, premendo il tasto \"Invio\" dopo ciascuna",
         "info":"Informazioni Aggiuntive",
-        "need_hostel":"Vogliamo usufruire dell'ospitalità in ostello",
+        "need_hostel":"Vogliamo usufruire dell'ospitalità offerta nell'ostello",
         "dinner_14":"Partecipiamo alla cena del 14 sera per gli ospiti lontani",
         "particular-food":"Alimentazione (allergie/intolleranze, vegeteriano, kosher, halal...)",
         "particular-mobility":"Mobilità / Ambiente (problemi di deambulazione, bisogni sulle camere...)",        
         "particular-babies": "Esigenze specifiche legate ai bambini",
         "message":"Messaggio per gli sposi",
         "send":"Invia!",
-        "preview":"Anteprima Conferma",
         "in_progress":"Invio in corso",
         "ok":"Conferma ricevuta! Grazie mille! Non vediamo l'ora di vedervi e di festeggiare con voi!",
-        "error": "Un errore è avvenuto durante l'invio della tua conferma. Per favore contatta paolo.ariane@jointhekoalition.eu per confermare."
+        "error": "Un errore è avvenuto durante l'invio della tua conferma. Per favore contatta ariane.paolo@jointhekoalition.eu per confermare.",
+        "confirmation_message" : "Sicuro di voler inviare? :-)",
+        "return": "Pagina Princiaple",
+        "reset" : "Reinizializza"
     }
 }
