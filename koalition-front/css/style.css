@@ -111,6 +111,7 @@ footer.page-footer {
 .polaroid {
   border: 1px solid #ddd;
   border-radius: 4px;
+  background-color: #ddd;
   padding: 5px;
 }
 

@@ -84,8 +84,8 @@
             ]
           },
            "paragraph1": "As it is traditional in Italy, the party will be held just after the ceremony and we will have the great pleasure to have a big lunch together up until nightime!",
-           "paragraph2":  "The location of the party, the Villa Angaran San Giuseppe, is at 20-25 minutes by foot from the place of the ceremony. For those of you who wish to follow us, we would like to all go there by foot from the place of the ceremony to the villa, taking that time in addition to show you a bit of Bassano.",
-           "paragraph3":  "For the people who find it difficult to walk, do not worry about it! There will be a car service which will easily help you to reach the party place.",
+           "paragraph2":  "The location of the party, the Villa Angaran San Giuseppe, is at [b]20-25 minutes by foot[/b] from the place of the ceremony. For those of you who wish to follow us, we would like to all go there by foot from the place of the ceremony to the villa, taking that time in addition to show you a bit of Bassano.",
+           "paragraph3":  "[b]For the people who find it difficult to walk[/b], do not worry about it! There will be a car service which will easily help you to reach the party place.",
            "comfy_shoes":  "Take comfortable shoes!"
         },
     
@@ -152,8 +152,18 @@
         }
     },
     "accomodation" : {
-        "description" : "For those of you who come from far away, we prepared an [b]accommodation service[/b] in a hostel that we recommend you to use. The hostel is wholly booked for the wedding and the infrastructure is also compatible with families. From the hostel, reaching the centre of Bassano as well as all the places of the wedding is easy. More information yet to come!",
-        "dinner" :  "For those of you arriving the day before the wedding, we are also planning on having a dinner altogether." 
+        "description" : "For those of you who come from far away, we decided to offer an [b]accommodation service[/b] in a hotel / hostel that we recommend you to use. The hostel is wholly booked for the wedding (110 beds) and the facilities are also compatible with families. [br] Reaching the centre of Bassano as well as all the places of the wedding is easy from the hostel.",
+        "time_label" : "Time",
+        "location_label" : "Address",
+        "address" : {
+            "name" : "Ostello Bassano del Grappa",
+            "street":"Via Lorenzo Chini 6",
+            "city": "Bassano del Grappa, Italia"
+        },
+        "time" : "Friday night and saturday night",
+        "booking": "Booking Page",
+        "book" : "[b]To book[/b], please contact us directly so we could organise the rooms in the best way possible.",
+        "dinner" :  "For those of you arriving the day before the wedding, we are having a [b]dinner together[/b] in the hostel." 
     },
     "coming_soon" : "More details to be added soon! Come back to visit us before the wedding!" ,
     "confirmation": {

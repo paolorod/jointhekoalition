@@ -45,7 +45,7 @@
         </div>
         <div class="row center light">
           <div class="col s12 center section">
-             <a href="#confirm" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
+             <a href="#confirmation" id="confirm-button" class="btn-small waves-effect waves-light purple lighten-1">{{navbar.confirmation}}</a>
           </div>
         </div>
  </div>
@@ -138,9 +138,9 @@
         </div>
         <div class='row'>
             <div class="col s12 m9 l9 ">
-             <p class="flowtext">{{cerimony.paragraph1}}</p>
-             <p class="flowtext">{{cerimony.paragraph2}}</p>
-             <p class="flowtext">{{cerimony.paragraph3}}</p>
+             <p class="flowtext">{{format cerimony.paragraph1}}</p>
+             <p class="flowtext">{{format cerimony.paragraph2}}</p>
+             <p class="flowtext">{{format cerimony.paragraph3}}</p>
             </div>
             <div class="col s12 m3 l3">
               <div class="polaroid message rotate_r8">{{cerimony.comfy_shoes}}</div>
@@ -190,17 +190,85 @@
         <h5 class="header col s12 gray light">{{navbar.accomodation}}</h5>
     </div>
     <p class="flowtext">{{format accomodation.description}}</p>
-    <p class="flowtext">{{format accomodation.dinner}}</p>
+    <div class="row">
+      <div class="col s12 m12 l6">
+                <div class="address">
+                  <table>
+                    <tr><td><b>{{accomodation.time_label}}</b></td>
+                        <td>{{accomodation.time}}</td>
+                    </tr>
+                    <tr><td><b>{{accomodation.location_label}}</b></td>
+                      <td>{{accomodation.address.name}}<br/>
+                          {{accomodation.address.street}}<br/>
+                          {{accomodation.address.city}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td><a href="https://www.booking.com/hotel/it/ostello-don-cremona.it.html">{{accomodation.booking}}</a></td>
+                    </tr>
+                  </table>
+                </div>
+      <p class="flowtext">{{format accomodation.book}}</p>
+      <p class="flowtext">{{format accomodation.dinner}}</p>
+      </div>
+      <div class="col s12 m12 l6">
+            <div class="carousel">
+              <a class="carousel-item modal-trigger" href="#hostel-1"><img class="polaroid" src="images/hostel/hostel-1.jpg"></a>
+              <a class="carousel-item modal-trigger" href="#hostel-2"><img class="polaroid" src="images/hostel/hostel-2.jpg"></a>
+              <a class="carousel-item modal-trigger" href="#hostel-3"><img class="polaroid" src="images/hostel/hostel-3.jpg"></a>
+              <a class="carousel-item modal-trigger" href="#hostel-4"><img class="polaroid" src="images/hostel/hostel-4.jpg"></a>
+              <a class="carousel-item modal-trigger" href="#hostel-5"><img class="polaroid" src="images/hostel/hostel-5.jpg"></a>
+              <a class="carousel-item modal-trigger" href="#hostel-6"><img class="polaroid" src="images/hostel/hostel-6.jpg"></a>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="hostel-1" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-1.jpg">
+    </div>
+  </div>
+
+  <div id="hostel-2" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-2.jpg">
+    </div>
+  </div>
+
+  <div id="hostel-3" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-3.jpg">
+    </div>
+  </div>
+
+  <div id="hostel-4" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-4.jpg">
+    </div>
+  </div>
+
+  <div id="hostel-5" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-5.jpg">
+    </div>
+  </div>
+
+    <div id="hostel-6" class="modal">
+    <div class="modal-content">
+      <img class="responsive-img polaroid" src="images/hostel/hostel-6.jpg">
+    </div>
   </div>
 
   <div class="container anchor"  id="confirmation">
+    <a name="confirmation"></a>
     <div class="section">
-        
         <div class="row">
              <div class="col s12 m8 l8">
                <h5 class="header col s12 gray light">{{navbar.confirmation}}</h5>
                <p class="flowtext">{{format confirmation.main_page}}</p>
-               <a id="sendbutton" class="btn waves-effect waves-light purple lighten-1 modal-trigger btn-spaced" href="{{global.lang-code}}/confirmation">{{navbar.confirmation}}</a>
+               <a id="sendbutton" class="btn-small waves-effect waves-light purple lighten-1 btn-spaced" href="{{global.lang-code}}/confirmation">{{navbar.confirmation}}</a>
              </div>
              <div class="col s12 m4 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3 spaced-top" src="/images/fairepart/{{global.lang-code}}-4.jpg"/></div>
         </div>

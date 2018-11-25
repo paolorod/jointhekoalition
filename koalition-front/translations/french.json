@@ -84,8 +84,8 @@
             ]
           },
         "paragraph1":"Comme cela est d'usage en Italie, la fête se déroulera juste après la cérémonie et nous aurons le plaisir de faire un grand déjeuner tous ensemble qui se prolongera jusqu'au bout de la nuit!", 
-        "paragraph2": "Le lieu de la fête, la Villa Angaran San Giuseppe, est à 20-25 minutes à pieds du lieu de la cérémonie. Nous aimerions, pour ceux qui le souhaitent, y aller tous ensemble à pieds du lieu de la cérémonie à la villa, ce qui nous permettra d'en profiter pour vous faire découvrir quelque peu Bassano.",
-        "paragraph3": "Pour les personnes à mobilité réduite, ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.",
+        "paragraph2": "Le lieu de la fête, la Villa Angaran San Giuseppe, est à [b]20-25 minutes à pieds[/b] du lieu de la cérémonie. Nous aimerions, pour ceux qui le souhaitent, y aller tous ensemble à pieds du lieu de la cérémonie à la villa, ce qui nous permettra d'en profiter pour vous faire découvrir quelque peu Bassano.",
+        "paragraph3": "Pour [b]les personnes à mobilité réduite[/b], ne vous inquiétez pas! Il y aura plusieurs véhicules mis à disposition pour vous aider à rejoindre le lieu de la fête facilement.",
         "comfy_shoes": "Prenez des chaussures confortables!"
         },
     "travelling": {
@@ -151,8 +151,18 @@
         }
     },
     "accomodation" : {
-        "description" :  "Pour tous ceux qui viendraient de loin, nous avons préparé un [b]service d'hébergement[/b] dans une auberge de jeunesse, que nous vous invitons à utiliser. L'auberge est entièrement loué pour l'occasion et l'infrastructure est aussi adaptée pour recevoir des familles. À partir de l'auberge, il est facile de se rendre dans le centre de Bassano ainsi que dans les différents lieux du mariage. Plus d'informations à venir !", 
-        "dinner" : "Pour ceux qui arrivent la veille du mariage, nous sommes en train d'organiser également un dîner tous ensemble." 
+        "description" :  "Pour tous ceux qui viendraient de loin, nous avons préparé un [b]service d'hébergement[/b] dans une hotel / auberge de jeunesse, que nous vous invitons à utiliser. L'auberge est entièrement louée pour l'occasion (110 places) et l'infrastructure est aussi adaptée pour recevoir des familles. [br] À partir de l'auberge, il est facile de se rendre dans le centre de Bassano ainsi que dans les différents lieux du mariage.", 
+        "time_label" : "Heure",
+        "location_label" : "Adresse",
+        "address" : {
+            "name" : "Ostello Bassano del Grappa",
+            "street":"Via Lorenzo Chini 6",
+            "city": "Bassano del Grappa, Italia"
+        },
+        "time" : "Vendredi nuit et samedi nuit",
+        "booking": "Page sur booking",
+        "book" : "[b]Si vous souhaitez y rester[/b] ces deux nuits, veuillez nous contacter directement afin que nous puissions arranger les chambres de la meilleure façon possible.",
+        "dinner": "Pour ceux qui arrivent la veille du mariage, nous organisons également [b]un dîner tous ensemble[/b] dans l'hotel." 
     },
     "coming_soon" : "Plus de détails prochainement ! Revenez nous rendre visite avant le mariage !", 
     "confirmation": {

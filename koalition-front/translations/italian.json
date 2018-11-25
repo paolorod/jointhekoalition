@@ -84,8 +84,8 @@
             ]
           },
            "paragraph1":"Come si usa fare in Italia, la festa sarà subito dopo il matrimonio, per un grande pranzo tutti insieme fino a sera.",
-           "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa 10-15 minuti a piedi dal luogo della cerimonia. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, cogliendo l'occasione per mostrarvi un po' Bassano.",
-           "paragraph3":"Per chi avesse difficoltà a camminare, non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina.",
+           "paragraph2":"Il luogo della festa, Villa Angaran San Giuseppe, è distante circa [b]20-25 minuti a piedi[/b] dal luogo della cerimonia. Ci piacerebbe, per chi riesce, andare insieme a piedi dalla cerimonia fino alla villa, cogliendo l'occasione per mostrarvi un po' Bassano.",
+           "paragraph3":"[b]Per chi avesse difficoltà a camminare[/b], non preoccupatevi! Ci sarà un servizio per aiutarvi a raggiungere il luogo della cerimonia agevolmente anche senza macchina.",
            "comfy_shoes":"Portate scarpe comode!"
         },
     "travelling": {
@@ -151,8 +151,18 @@
         }
     },
     "accomodation" : {
-        "description" : "Per tutti quelli che vengono da distante, abbiamo preparato un [b]servizio di ospitalità[/b] in ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi, ed è adatta anche alle famiglie. Dall'ostello è possibile muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio. Maggiori informazioni a breve!",
-        "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando un cena tutti insieme."
+        "description" : "Per tutti quelli che vengono da distante, abbiamo deciso di offrire un [b]servizio di ospitalità[/b] in un albergo / ostello, che vi invitiamo ad utilizzare. La struttura è tutta prenotata per noi (110 posti), ed è adatta anche alle famiglie con molte camere private con bagno. [br] Dall'ostello è possibile muoversi facilmente verso il centro di Bassano così come per tutti i luoghi del matrimonio.",
+        "time_label" : "Ora",
+        "location_label" : "Indirizzo",
+        "address" : {
+            "name" : "Ostello Bassano del Grappa",
+            "street":"Via Lorenzo Chini 6",
+            "city": "Bassano del Grappa, Italia"
+        },
+        "time" : "Venerdì notte e Sabato notte",
+        "booking": "Pagina su booking",
+        "book" : "[b]Per usufruirne[/b], passate tramite noi che cercheremo di organizzare le camere nel modo migliore possibile.",
+        "dinner" : "Per chi arriva il giorno prima, stiamo anche organizzando [b]un cena tutti insieme[/b]."
     },
     "coming_soon" : "In arrivo prossimamente! Tornate a visitarci prima del matrimonio!",
     "confirmation": {
