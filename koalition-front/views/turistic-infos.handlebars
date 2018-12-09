@@ -46,7 +46,7 @@
             {{#each section}}
             <div id="{{id}}" class="section scrollspy">
                 <h6 class="turistic-title">{{title}}</h6>
-                <p>{{desc}}</p>
+                <p>{{format desc}}</p>
                 <a href="{{link}}">{{link}}</a>
                 <div class="row turistic-imgs">
                     {{#each img}}
@@ -60,7 +60,7 @@
             {{#each subsection}}
                 <div id="{{id}}" class="section subsection scrollspy">
                     <h5 class="turistic-title">{{title}}</h5>
-                    <p>{{desc}}</p>
+                    <p>{{format desc}}</p>
                     <a href="{{link}}">{{link}}</a>
                     <div class="row turistic-imgs">
                         {{#each img}}
