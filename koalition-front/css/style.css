@@ -205,7 +205,12 @@ footer.page-footer {
 }
 
 .turistic-leftmenu {
-  padding-top: 30px;
+  padding-top: 60px;
+}
+
+.turistic-nav {
+  width: 100%;
+  background-color: #fff;
 }
 
 .turistic-imgs {

@@ -11,19 +11,18 @@
 {{#with turistic_info}}
 <div id="turistic-info">
         <div id="tabnav" class="pushpin-infos turistic-nav" data-target="turistic-info">
-            <div class="container tab-nav">
-                        <div class="right">
-                            <li class="tab"><a href="#bassano">{{bassano.title}}</a></li>
-                            <li class="tab"><a href="#surroundings">{{surroundings.title}}</a></li>
-                            <li class="tab"><a href="#veneto-cities">{{veneto-cities.title}}</a></li>
-                        </div>
+            <div class="container">
+                    <ul class="tab-nav right">
+                        <li class="tab"><a href="#bassano">{{bassano.title}}</a></li>
+                        <li class="tab"><a href="#surroundings">{{surroundings.title}}</a></li>
+                        <li class="tab"><a href="#veneto-cities">{{veneto-cities.title}}</a></li>
                     </ul>
             </div>
         </div>
 
 <div class="container" id="turistic-info">
+    {{#with bassano}}
     <div class="row">
-        {{#with bassano}}
         <div class="col m3">
             <div class="pushpin-infos" data-target="bassano" super-target="tabnav">
                 <div class="turistic-leftmenu">
@@ -51,23 +50,8 @@
             </div>
             {{/each}}
         </div>
-
-        {{/with}}
     </div>
-
-    <div class="row">
-        <div class="col m3">
-            <div class="pushpin-infos" data-target="bassano" super-target="tabnav">
-                <ul class="section table-of-contents">
-                    <li><a href="#b1">Introduction</a></li>
-                </ul>
-            </div>
-        </div>
-        <div id="bassano" class="col m9">
-            <div id="b1" class="section scrollspy">
-            </div>
-        </div>
-    </div>
+    {{/with}}
 
 </div>
 </div>
