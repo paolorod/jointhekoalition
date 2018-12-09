@@ -8,22 +8,20 @@
         </div>
  </div>
 
-
+{{#with turistic_info}}
 <div id="turistic-info">
-
-<div class="pushpin-infos turistic-nav" data-target="turistic-info">
-    <div class="container">
-        <nav>
-            <div class="nav-wrapper" id="supermenu">
-                <a href="#!" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                </ul>
+        <div id="tabnav" class="pushpin-infos turistic-nav" data-target="turistic-info">
+            <div class="container">
+                <div id="supermenu">
+                    <ul class="tab-nav">
+                        <li class="tab"><a href="#bassano">{{bassano.title}}</a></li>
+                        <li class="tab"><a href="#surroundings">{{surroundings.title}}</a></li>
+                        <li class="tab"><a href="#veneto-cities">{{veneto-cities.title}}</a></li>
+                    </ul>
+                </div>
             </div>
-        </nav>
-    </div>
-</div>
+        </div>
+
 
 <div class="container" id="turistic-info">
     <div class="row">
@@ -150,3 +148,4 @@
     </div>
 </div>
 </div>
+{{/with}}
