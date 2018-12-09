@@ -106,7 +106,9 @@ app.get('/:lang/', function (req, res) {
 app.get('/:lang/confirmation', confirmation_controller.execute_get);
 app.post('/:lang/confirmation', confirmation_controller.execute_post);
 
-
+app.get('/:lang/turistic-infos', function (req, res) {
+  res.render('turistic-infos',translation.get(req.params.lang));
+});
 
 // Start
 app.listen(PORT, HOST);
