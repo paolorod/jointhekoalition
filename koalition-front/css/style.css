@@ -217,6 +217,10 @@ footer.page-footer {
   padding-top:20px;
 }
 
+.subsection {
+  padding-left: 10px;
+}
+
 .tab-nav.tab-nav-transparent .tab a:hover,
 .tab-nav.tab-nav-transparent .tab a.active {
   color: #fff;

@@ -209,18 +209,56 @@
                         "menu": "Le musée municipal",
                         "title": "Le musée de Bassano del Grappa (il museo civico di Bassano)",
                         "desc": "c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
-                        "link": "http://www.museibassano.it/sedi/museo-civico "
+                        "link": "http://www.museibassano.it/sedi/museo-civico",
+                        "img" : ["/images/chiostro.jpg", "/images/museum2.jpg"]
                     },
                     {
                         "id": "historic-town",
                         "menu":"La petite ville",
                         "title":"Promenades dans la petite ville",
-                        "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes."
+                        "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes.",
+                        "img" : ["/images/bassano-ville.jpg", "/images/bassano-ville2.jpg","/images/bassano-ville3.jpg"]
                     },
                     {
                         "id":"food",
-                        "title":"",
-                        "menu":"Restaurants et bonnes adresses"
+                        "title":"Restaurants et bonnes adresses",
+                        "menu":"Restaurants et bonnes adresses",
+                        "subtree": true,
+                        "subsection": [
+                            {
+                                "id": "telefono",
+                                "menu":"Al Telefono (Pizzeria)",
+                                "title":"Pizzeria al Telefono",
+                                "desc":"(un peu loin du centre – à 10 min en voiture/taxi): nichée en haut des collines de Bassano, cette pizzeria est littéralement la meilleure du monde entier (non non, on n’exagère pas !). Les pizzas sont typiques du nord de l’Italie avec une pâte très fine. Son cadre est également magnifique puisqu’elle surplombe la ville. Le prix des pizzas oscille entre 6 et 12 euros, et l’endroit est très convivial. Jetez-y un coup d’œil ici ",
+                                "link": "https://www.tripadvisor.fr/Restaurant_Review-g194685-d4228369-Reviews-Pizzeria_Al_Telefono-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html ",
+                                "img" : ["/images/pizzeriatelefono1.jpg","/images/pizzeriatelefono2.jpg"]
+                            },
+                            {
+                                "id": "samsara",
+                                "menu":"Il Samsara (Pub)",
+                                "title":"Il Samsara",
+                                "desc":"si vous souhaitez simplement boire une bière, grignoter un panino sur le pouce et vous retrouver dans un bar chaleureux et convivial, le samsara est l’endroit qu’il vous faut ! Avec des grandes tables dehors, des tables en bois style taverne et des banquettes avec des coussins à l’intérieur, rien de tel qu’un verre dans ce bar pour se retrouver entre amis ! Jetez-y un coup d’œil ici :",
+                                "link" : "https://www.tripadvisor.fr/Restaurant_Review-g194685-d3485892-Reviews-Samsara-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html ",
+                                "img" : ["/images/samsara1.jpg","/images/samsara2.jpg"]
+                            },
+                            {
+                                "id": "concadoro",
+                                "menu":"Concadoro (Restaurant)",
+                                "title":"Restaurant Fattoria Sociale Concadoro",
+                                "desc":"(un peu loin du centre – à 10 min en voiture/taxi) : ce restaurant est situé en face des montagnes au milieu du paysage vénitien. Il est tenu par une association d’insertion sociale qui forme et emploie des jeunes atteints de handicap mental. Tous les produits cuisinés dans le restaurant sont cultivés et récoltés dans les terres avoisinantes par ces jeunes. La cuisine et le service sont également effectués par ces jeunes gens qui dorment dans une partie de l’établissement, reconverti en foyer. Le menu change fréquemment en fonction des saisons et des produits récoltés. Les plats sont délicieux et le service est excellent. Il faut compter environ 7-10 euros pour un primo et 12-15 euros pour un secondo. Jetez-y un coup d’œil ici : ",
+                                "link": "http://concadoro.org/?page_id=11",
+                                "img" : ["/images/concadoro1.jpg", "/images/concadoro2.jpg","/images/concadoro3.jpg"]
+                            },
+                            {
+                                "id": "golosita",
+                                "menu":"Golosita (Café)",
+                                "title":"Golosita Café",
+                                "desc":"Pour déguster une « brioche » (attention faux ami ! Il s’agit d’un croissant fourré à la crème, au nutella ou à la confiture !) avec un café au petit dej, nous vous recommandons vivement cet endroit. Les pâtisseries sont excellentes. Vous pouvez également déjeuner ou diner au restaurant à l’étage (il s’agit aussi de notre traiteur de mariage donc évidemment, c’est délicieux !!). La cuisine y est traditionnelle mais revisitée avec de la modernité. Jetez-y un coup d’œil ici :",
+                                "link": "https://www.tripadvisor.fr/Restaurant_Review-g194685-d10037947-Reviews-Golosita-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html",
+                                "img" : ["/images/golosita1.jpg"]
+                            }
+                            
+                        ] 
                     }
                     ]
                 },
