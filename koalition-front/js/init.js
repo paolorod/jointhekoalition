@@ -19,7 +19,7 @@
       $this.pushpin({
         top: $target.offset().top,
         bottom: $target.offset().top + $target.outerHeight() - $this.height(),
-        offset: $supertarget.height()
+        //offset: $supertarget.height()
       });
     });
 
