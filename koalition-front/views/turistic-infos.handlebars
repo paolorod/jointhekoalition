@@ -13,18 +13,18 @@
         <div id="tabnav" class="pushpin-infos turistic-nav" data-target="turistic-info">
             <div class="container">
                     <ul class="tab-nav right">
-                        <li class="tab"><a href="#bassano">{{bassano.title}}</a></li>
-                        <li class="tab"><a href="#surroundings">{{surroundings.title}}</a></li>
-                        <li class="tab"><a href="#veneto-cities">{{veneto-cities.title}}</a></li>
+                        {{#each block}}
+                        <li class="tab"><a href="#{{id}}">{{title}}</a></li>
+                        {{/each}}
                     </ul>
             </div>
         </div>
 
 <div class="container" id="turistic-info">
-    {{#with bassano}}
+    {{#each block}}
     <div class="row">
         <div class="col m3">
-            <div class="pushpin-infos" data-target="bassano" super-target="tabnav">
+            <div class="pushpin-infos" data-target="{{id}}" super-target="tabnav">
                 <div class="turistic-leftmenu">
                     <h5 class="turistic-title">{{title}}</h5>
                     <ul class="section table-of-contents">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div id="bassano" class="col m9">
+        <div id="{{id}}" class="col m9">
             {{#each section}}
             <div id="{{id}}" class="section scrollspy">
                  <h6 class="turistic-title">{{title}}</h6>
@@ -51,7 +51,7 @@
             {{/each}}
         </div>
     </div>
-    {{/with}}
+    {{/each}}
 
 </div>
 </div>
