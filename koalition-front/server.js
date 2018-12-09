@@ -45,7 +45,8 @@ const helpers = require('./helpers.js');
 const hbs = exphbs.create(
     { defaultLayout: "main",
       helpers: {
-        format: helpers.format
+        format: helpers.format,
+        hash: helpers.hash
       }
     });
 

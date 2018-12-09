@@ -192,25 +192,41 @@
 
     "turistic_info" : {
         "bassano": {
-            "title": "",
-            "grappa:": {
-                "title": "",
-                "desc": "Le musée de la grappa et sa distillerie (Il Poli museo della grappa): la distillerie de l’alcool iconique, le grappa, ouvre ses portes aux visiteurs avec un joli petit musée que l’on peut visiter tous les jours de 9h à 19h30. Le tarif est de 3 euros, comprenant la visite du musée et de la distillerie, ainsi qu’une dégustation de cinq alcools différents. Jetez-y un coup d’œil ici :",
-                "link": "https://www.poligrappa.com/ita/geografia/poli-museo-grappa-bassano.php"
-            },
-            "museum":{
-                "title": "",
-                "desc": "Le musée de Bassano del Grappa (il museo civico di Bassano): c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
-                "link": "http://www.museibassano.it/sedi/museo-civico "
-            },
-            "historic-town":{
-                "title":"",
-                "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes."
-            },
-            "food": {
-                "title":""
-            }
-
+            "title" : "Bassano",
+            "section" : [
+                 {
+                    "id":"grappa",
+                    "menu" : "Le musée de la grappa",
+                    "title": "Le musée de la grappa Poli et sa distillerie",
+                    "desc": "La distillerie de l’alcool iconique, le grappa, ouvre ses portes aux visiteurs avec un joli petit musée que l’on peut visiter tous les jours de 9h à 19h30. Le tarif est de 3 euros, comprenant la visite du musée et de la distillerie, ainsi qu’une dégustation de cinq alcools différents. Jetez-y un coup d’œil ici :",
+                    "link": "https://www.poligrappa.com/ita/geografia/poli-museo-grappa-bassano.php",
+                    "img" : ["/images/poli.jpg", "/images/poli2.jpg"]
+                },
+                {
+                    "id":"museum",
+                    "menu": "Le musée municipal",
+                    "title": "Le musée de Bassano del Grappa (il museo civico di Bassano)",
+                    "desc": "c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
+                    "link": "http://www.museibassano.it/sedi/museo-civico "
+                },
+                {
+                    "id": "historic-town",
+                    "menu":"La petit ville",
+                    "title":"Promenades dans la petite ville",
+                    "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes."
+                },
+                {
+                    "id":"food",
+                    "title":"",
+                    "menu":"Restaurants et bonnes adresses"
+                }
+            ]
+        },
+        "surroundings": {
+            "title": "Environs cachés"
+        },
+        "veneto-cities": {
+            "title":"Villes de la Venetie"
         }
     }
 }

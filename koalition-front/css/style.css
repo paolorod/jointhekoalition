@@ -107,7 +107,6 @@ footer.page-footer {
   padding-top: 3em;
 }
 
-
 .polaroid {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -201,17 +200,16 @@ footer.page-footer {
   margin-top: 1.5em;
 }
 
-#tabnav {
-  width: 100%;
-  height: 56px;
-  line-height: 56px;
-  background-color: #fff;
+.turistic-title {
+  font-family: shoreline_script;
 }
 
-.tab-nav.tab-nav-transparent .tab a,
-.tab-nav.tab-nav-transparent .tab.disabled a,
-.tab-nav.tab-nav-transparent .tab.disabled a:hover {
-  color: rgba(255, 255, 255, 0.7);
+.turistic-leftmenu {
+  padding-top: 30px;
+}
+
+.turistic-imgs {
+  padding-top:20px;
 }
 
 .tab-nav.tab-nav-transparent .tab a:hover,
