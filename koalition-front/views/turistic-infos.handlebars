@@ -37,7 +37,7 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div class="pushpin-infos hide-on-large-and-up turistic-nav" data-target="turistic-info">
+        <div class="pushpin-infos hide-on-large-only turistic-nav" data-target="turistic-info">
                 <div class="valign-wrapper">
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> {{menu-nav}}
                  </div>                
@@ -84,11 +84,11 @@
                 </div>
             </div>
             <!-- Mobile not pushpin title -->
-            <div class="hide-on-large-and-up">
+            <div class="hide-on-large-only">
                 <h5 class="turistic-title">{{title}}</h5>
             </div>
         </div>
-        <div id="{{id}}" class="col m9">
+        <div id="{{id}}" class="col s12 m12 l9">
             {{#each section}}
             <div id="{{id}}" class="section scrollspy">
                 <h6 class="turistic-title">{{title}}</h6>
