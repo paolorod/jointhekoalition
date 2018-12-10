@@ -33,19 +33,21 @@
                         {{#each block}}
                         <li class="tab"><a href="#{{id}}">{{title}}</a></li>
                         {{/each}}
+                        <li class="tab"><a href="/{{../global.lang-code}}"><i class="material-icons">home</i></a></li>
                     </ul>
             </div>
         </div>
         <!-- Mobile Menu -->
         <div class="pushpin-infos hide-on-large-only turistic-nav" data-target="turistic-info">
                 <div class="valign-wrapper">
-                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> {{menu-nav}}
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons purple-text">menu</i></a><span class="mobile-menu-nav"> {{menu-nav}}</span>
                  </div>                
         </div>    
         <ul id="slide-out" class="sidenav">
-            <li>
+            <li><a class="waves-effect purple-text" href="/{{../global.lang-code}}"><i class="material-icons purple-text">home</i>{{home-link}}</a></li>
+            <li><div class="divider"></div></li>
             {{#each block}}
-            <li class="tab"><a class="subheader" href="#{{id}}">{{title}}</a></li>
+            <li><a class="subheader" href="#{{id}}">{{title}}</a></li>
              {{#each section}}
                 <li><a class="waves-effect" href="#{{id}}">{{menu}}</a></li>
                 {{#if subtree}}

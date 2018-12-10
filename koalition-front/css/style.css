@@ -221,6 +221,10 @@ footer.page-footer {
   padding-left: 10px;
 }
 
+.mobile-menu-nav {
+  padding-left: 20px,
+}
+
 .tab-nav.tab-nav-transparent .tab a:hover,
 .tab-nav.tab-nav-transparent .tab a.active {
   color: #fff;
@@ -252,6 +256,13 @@ footer.page-footer {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
+  vertical-align: middle;
+
+}
+
+.tab i {
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .tab-nav .tab a {
