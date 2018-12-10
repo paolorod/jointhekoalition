@@ -9,8 +9,25 @@
  </div>
 
 {{#with turistic_info}}
+<div class="container">
+    <p class="flowtext">{{format intro1}}</p>
+    <p class="flowtext">{{format intro2}}</p>
+    <p class="flowtext">{{format intro3}}
+    <ul class="browser-default">
+    {{#each block}}
+    <li><b>{{title}}</b> - {{desc}}</li>
+    {{/each}}
+    </ul>
+    </p>
+    <div class="divider"></div>
+</div>
+
+
+
+
 <div id="turistic-info">
-        <div id="tabnav" class="pushpin-infos turistic-nav" data-target="turistic-info">
+        <!-- Big screen pushpin bar -->
+        <div id="tabnav" class="pushpin-infos hide-on-med-and-down turistic-nav" data-target="turistic-info">
             <div class="container">
                     <ul class="tab-nav right">
                         {{#each block}}
@@ -19,12 +36,37 @@
                     </ul>
             </div>
         </div>
+        <!-- Mobile Menu -->
+        <div class="pushpin-infos hide-on-large-and-up turistic-nav" data-target="turistic-info">
+                <div class="valign-wrapper">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> {{menu-nav}}
+                 </div>                
+        </div>    
+        <ul id="slide-out" class="sidenav">
+            <li>
+            {{#each block}}
+            <li class="tab"><a class="subheader" href="#{{id}}">{{title}}</a></li>
+             {{#each section}}
+                <li><a class="waves-effect" href="#{{id}}">{{menu}}</a></li>
+                {{#if subtree}}
+                {{#each subsection}}
+                <div class="subsection">
+                <li><a href="#{{id}}">{{menu}}</a></li>
+                </div>
+                {{/each}}
+                {{/if}}
+             {{/each}}
+            <li><div class="divider"></div></li>
+            {{/each}}
+        </ul>
+         
 
 <div class="container" id="turistic-info">
     {{#each block}}
     <div class="row">
         <div class="col m3">
-            <div class="pushpin-infos" data-target="{{id}}" super-target="tabnav">
+            <!-- Big screen pushpin menu -->
+            <div class="pushpin-infos hide-on-med-and-down" data-target="{{id}}" super-target="tabnav">
                 <div class="turistic-leftmenu">
                     <h5 class="turistic-title">{{title}}</h5>
                     <ul class="section table-of-contents">
@@ -40,6 +82,10 @@
                         {{/each}}
                     </ul>
                 </div>
+            </div>
+            <!-- Mobile not pushpin title -->
+            <div class="hide-on-large-and-up">
+                <h5 class="turistic-title">{{title}}</h5>
             </div>
         </div>
         <div id="{{id}}" class="col m9">
@@ -59,7 +105,7 @@
             {{#if subtree}}
             {{#each subsection}}
                 <div id="{{id}}" class="section subsection scrollspy">
-                    <h5 class="turistic-title">{{title}}</h5>
+                    <h6 class="turistic-title">{{title}}</h6>
                     <p>{{format desc}}</p>
                     <a href="{{link}}">{{link}}</a>
                     <div class="row turistic-imgs">

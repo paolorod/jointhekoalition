@@ -191,10 +191,17 @@
     },
 
     "turistic_info" : {
+        "menu-nav" : "Menu de Navigation",
+        "intro1" : "La zona intorno a Bassano offre molte possibilità da esplorare. Ovvie destinazioni sono [b]Venezia[/b] o, per gli amanti della natura, [b]le Dolomiti[/b]. Ma non solo: tutta l'area intorno a Bassano offre cose belle da scoprire.",
+        "intro2" : "Se volete fermarvi qualche giorno in più, abbiamo preparato qualche consiglio per inspirarvi e condividere con voi una parte della nostra storia.",
+        "home" : "Per vedere i nostri consigli, cliccate qui:",
+        "link" : "Vai alle informazioni",
+        "intro3" : "Qui sotto trovate i nostri consigli, divisi tra",    
         "block" : [
                 {
                 "id" : "bassano",
                 "title" : "Bassano",
+                "desc" : "La città di Bassano del Grappa, la sua storia ed i suoi locali ed i suoi paesaggi",
                 "section" : [
                     {
                         "id":"grappa",
@@ -264,11 +271,13 @@
                 },
                 {
                 "id": "surroundings",
-                "title":"Environs cachés"
+                "title":"Environs cachés",
+                "desc" : "Altri luoghi vicini a Bassano, meno conosciuti ma molto affascinanti"
                 },
                 {
                 "id":"veneto-cities",
-                "title":"Villes de la Venetie"
+                "title":"Villes de la Venetie",
+                "desc": "Per gli amanti delle città, le magnifiche città Venete vicine da esplorare (oltre Venezia)"
                 }
             ]
     }
