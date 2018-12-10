@@ -272,12 +272,60 @@
                 {
                 "id": "surroundings",
                 "title":"Environs cachés",
-                "desc" : "Altri luoghi vicini a Bassano, meno conosciuti ma molto affascinanti"
-                },
-                {
-                "id":"veneto-cities",
-                "title":"Villes de la Venetie",
-                "desc": "Per gli amanti delle città, le magnifiche città Venete vicine da esplorare (oltre Venezia)"
+                "desc" : "À l’étranger, quand on pense à la Vénétie, on pense tout de suite à Venise, ses canots, sa place Saint-Marc… Mais en réalité, la Vénétie ne se résume pas simplement aux lions de Venise ! Cette région regorge de villes magnifiques à visiter et de montagnes splendides que nous vous conseillons vivement d’explorer",
+                "section": [
+                    {
+                        "id":"cities",
+                        "title":"Pour les plus citadins",
+                        "menu":"Pour les plus citadins ",
+                        "subtree": true,
+                        "subsection": [
+                            {
+                                "id": "padova",
+                                "menu":"Padue",
+                                "title":"Padue / Padova",
+                                "desc":"(45 minutes en train de Bassano del Grappa / 1h en voiture) : cette ville est la troisième plus grande ville de la Vénétie après Venise et Vérone. Si vous décidez d’y faire un tour, allez visiter la chapelle des Scrovegni dans laquelle se trouvent des fresques incroyables de Giotto. Ne manquez pas non plus la Basilique Saint Antoine, patron de la ville et saint bien connu pour guider ceux qui se sont égarés.",
+                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                            },
+                            {
+                                "id": "treviso",
+                                "menu":"Trévise",
+                                "title":"Trévise / Treviso",
+                                "desc":"(10 minutes en train de Venise/ 20 minutes en voiture de Venise) : Peu connue comparé à Venise, Trévise est sa petite sœur. Cette ville romaine contient des vestiges médiévaux et datant de la Renaissance. Si une grande partie de la ville a été détruite par des bombardements pendant la Seconde guerre mondiale, elle a été reconstruite et demeure une superbe ville à visiter",
+                                "img" : ["/images/treviso1.jpg","/images/treviso2.jpg"]
+                            },
+                            {
+                                "id": "marostica",
+                                "menu":"Marostica",
+                                "title":"Marostica",
+                                "desc":"(15 en voiture ou bus de Bassano) : cité médiévale, la ville est construite au sein d’une enceinte qui relie deux châteaux : le château supérieur et le château inférieur. Cette ville est assez connue en Vénétie pour sa partie d’échec géante qui se déroule tous les deux ans devant le château inférieur avec des personnages vivants habillés en costumes d’époque du XVème siècle.",
+                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                            },
+                            {
+                                "id": "asolo",
+                                "menu":"Asolo",
+                                "title":"Asolo",
+                                "desc":"(25 en voiture ou bus de Bassano) : Asolo est une petite ville splendide, tout en hauteur, que nous vous recommandons vivement de visiter. Pour les férus brocanteurs, cette petite ville vénitienne constitue la capitale italienne des antiquités et des brocantes. Pour preuve, tous les seconds dimanches du mois se tient le grand marché des antiquaires qui s’étale dans toutes les rues de la ville.",
+                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                            },
+                            {
+                                "id": "asiago",
+                                "menu":"Asiago",
+                                "title":"Asiago",
+                                "desc":"Cette ville est située devant un haut plateau de montagnes (l’Alto piano di Asiago). L’on retrace son histoire au Paléolithique et au Mésolithique. Le dialecte cimbre et son folklore datent en revanche des Goths, d’autres populations barbares ainsi que des lombards. Pour ceux qui souhaitent faire des randonnées en montagne sur l’Alto piano di Asiago (voir plus bas pour plus d’informations !), cette ville peut être la parfaite halte ou point de chute. ",
+                                "img" : ["/images/asiago1.jpg","/images/asiago2.jpg"]
+                            }
+
+                        ]
+                    },
+                    {
+                        "id":"nature",
+                        "title":"Pour les marcheurs, randonneurs ou amateurs de campagnes verdoyantes",
+                        "menu":"Pour les amateurs de campagnes verdoyantes",
+                        "subtree": true,
+                        "subsection": []
+                    }
+                ]
                 }
             ]
     }
