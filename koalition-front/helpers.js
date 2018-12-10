@@ -6,8 +6,8 @@ const handlebars=require('handlebars')
 function format(text) { 
     text = handlebars.escapeExpression(text)
     return new handlebars.SafeString(
-      text.replace(/\[b\](.*)\[\/b\]/g, '<b>$1</b>')
-          .replace(/\[upper\](.*)\[\/upper\]/g, '<small><sup>$1</small>')
+      text.replace(/\[b\]([^\/]*)\[\/b\]/g, '<b>$1</b>')
+          .replace(/\[upper\]([^\/]*)\[\/upper\]/g, '<small><sup>$1</small>')
           .replace(/\[br\]/g, '<br/>')
      )
   }
