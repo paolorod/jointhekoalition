@@ -300,14 +300,14 @@
                                 "menu":"Marostica",
                                 "title":"Marostica",
                                 "desc":"(15 en voiture ou bus de Bassano) : cité médiévale, la ville est construite au sein d’une enceinte qui relie deux châteaux : le château supérieur et le château inférieur. Cette ville est assez connue en Vénétie pour sa partie d’échec géante qui se déroule tous les deux ans devant le château inférieur avec des personnages vivants habillés en costumes d’époque du XVème siècle.",
-                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                                "img" : ["/images/marostica1.jpg","/images/marostica2.jpg","/images/marostica3.jpg"]
                             },
                             {
                                 "id": "asolo",
                                 "menu":"Asolo",
                                 "title":"Asolo",
                                 "desc":"(25 en voiture ou bus de Bassano) : Asolo est une petite ville splendide, tout en hauteur, que nous vous recommandons vivement de visiter. Pour les férus brocanteurs, cette petite ville vénitienne constitue la capitale italienne des antiquités et des brocantes. Pour preuve, tous les seconds dimanches du mois se tient le grand marché des antiquaires qui s’étale dans toutes les rues de la ville.",
-                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                                "img" : ["/images/asolo1.jpg","/images/asolo2.jpg"]
                             },
                             {
                                 "id": "asiago",
@@ -322,7 +322,7 @@
                     {
                         "id":"nature",
                         "title":"Pour les marcheurs, randonneurs ou amateurs de campagnes verdoyantes",
-                        "menu":"Pour les amateurs de campagnes verdoyantes",
+                        "menu":"Pour les amateurs de campagnes",
                         "subtree": true,
                         "subsection": []
                     }
