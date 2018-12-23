@@ -46,7 +46,8 @@ const hbs = exphbs.create(
     { defaultLayout: "main",
       helpers: {
         format: helpers.format,
-        hash: helpers.hash
+        hash: helpers.hash,
+        ifEquals: helpers.ifEquals
       }
     });
 

@@ -29,5 +29,10 @@ function format(text) {
     return hash;
   }
 
+function ifEquals(arg1, arg2, options) {
+  return (arg1 == arg2) ? options.fn(this) : options.inverse(this)
+}
+
 exports.format = format;
 exports.hash = hash;
+exports.ifEquals = ifEquals;

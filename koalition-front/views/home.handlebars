@@ -250,12 +250,15 @@
 
   <div class="container anchor" id="turist_info"/>
     <div class="section">
-        <h5 class="header col s12 gray light">{{navbar.turist_info}}</h5>
-          <p class="flowtext">{{format turistic_info.intro1}}</p>
-          <p class="flowtext">{{format turistic_info.intro2}}</p>
-          <p class="flowtext">{{format turistic_info.home}}</p>
-          <a class="btn-small waves-effect waves-light purple lighten-1 btn-spaced" href="{{global.lang-code}}/turistic-infos">{{turistic_info.link}}</a>    
-          </p>
+      <h5 class="header col s12 gray light">{{navbar.turist_info}}</h5>
+      {{#ifEquals global.lang-code "fr" }}  
+      <p class="flowtext">{{format turistic_info.intro1}}</p>
+      <p class="flowtext">{{format turistic_info.intro2}}</p>
+      <p class="flowtext">{{format turistic_info.home}}</p>
+      <a class="btn-small waves-effect waves-light purple lighten-1 btn-spaced" href="{{global.lang-code}}/turistic-infos">{{turistic_info.link}}</a>    
+      {{else}}
+      <p class="flowtext">{{coming_soon}}</p>
+      {{/ifEquals}}
     </div>
     <div class="section row">
       <div class="col s12 m8 l6"><img class="responsive-img polaroid rotate_l5 z-depth-3 spaced-top" src="/images/poli.jpg"/></div>

@@ -106,10 +106,11 @@
                     <img id="{{this}}" class="modal responsive-img polaroid" src="{{this}}"/>
                     {{/each}}
                 </div>
-            
+            </div>
+
             {{#if subtree}}
             {{#each subsection}}
-                <div id="{{id}}" class="section scrollspy">
+                <div id="{{id}}" class="subsection scrollspy">
                     <h6 class="turistic-title">{{title}}</h6>
                     <p>{{format desc}}</p>
                     <a href="{{link}}">{{link}}</a>
@@ -122,7 +123,7 @@
                 </div>
             {{/each}}
             {{/if}}
-            </div>
+            
             <div class="divider"></div>
             {{/each}}
 
