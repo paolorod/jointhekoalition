@@ -10,15 +10,20 @@
 
 {{#with turistic_info}}
 <div class="container">
-    <p class="flowtext">{{format intro1}}</p>
-    <p class="flowtext">{{format intro2}}</p>
-    <p class="flowtext">{{format intro3}}
-    <ul class="browser-default">
-    {{#each block}}
-    <li><b>{{title}}</b> - {{desc}}</li>
-    {{/each}}
-    </ul>
-    </p>
+    <div class="row">
+        <div class="col s12 m6 l4"><img class="responsive-img polaroid rotate_l5 z-depth-3 spaced-top" src="/images/stazione.jpg"/></div>
+        <div class="col s12 m6 l8 section">
+            <p class="flowtext">{{format intro1}}</p>
+            <p class="flowtext">{{format intro2}}</p>
+            <p class="flowtext">{{format intro3}}
+            <ul class="browser-default">
+            {{#each block}}
+            <li><b>{{title}}</b> - {{desc}}</li>
+            {{/each}}
+            </ul>
+            </p>
+        </div>
+    </div>
     <div class="divider"></div>
 </div>
 
@@ -92,7 +97,7 @@
         <div id="{{id}}" class="col s12 m12 l9">
             {{#each section}}
             <div id="{{id}}" class="section scrollspy">
-                <h6 class="turistic-title">{{title}}</h6>
+                <h6 class="turistic-title purple-text">{{title}}</h6>
                 <p>{{format desc}}</p>
                 <a href="{{link}}">{{link}}</a>
                 <div class="row turistic-imgs">
@@ -101,11 +106,10 @@
                     <img id="{{this}}" class="modal responsive-img polaroid" src="{{this}}"/>
                     {{/each}}
                 </div>
-            </div>
-
+            
             {{#if subtree}}
             {{#each subsection}}
-                <div id="{{id}}" class="section subsection scrollspy">
+                <div id="{{id}}" class="section scrollspy">
                     <h6 class="turistic-title">{{title}}</h6>
                     <p>{{format desc}}</p>
                     <a href="{{link}}">{{link}}</a>
@@ -118,7 +122,10 @@
                 </div>
             {{/each}}
             {{/if}}
+            </div>
+            <div class="divider"></div>
             {{/each}}
+
         </div>
     </div>
     {{/each}}

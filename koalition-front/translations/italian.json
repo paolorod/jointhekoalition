@@ -188,5 +188,145 @@
         "confirmation_message" : "Sicuro di voler inviare? :-)",
         "return": "Pagina Princiaple",
         "reset" : "Reinizializza"
+    },
+    "turistic_info" : {
+        "menu-nav" : "Menu de Navigation",
+        "home-link" : "Page Principale",
+        "intro1" : "La zona intorno a Bassano offre molte possibilità da esplorare. Ovvie destinazioni sono [b] Venezia [/b] o, per gli amanti della natura, [b] le Dolomiti [/b]. Ma non solo: tutta l'area intorno a Bassano offre cose belle da scoprire.",
+        "intro2" : "Se volete fermarvi qualche giorno in più, abbiamo preparato qualche consiglio per inspirarvi e condividere con voi una parte della nostra storia.",
+        "home" : "Per vedere i nostri consigli, cliccate qui:",
+        "link" : "Vai alle informazioni",
+        "intro3" : "Qui sotto trovate i nostri consigli, divisi tra",    
+        "block" : [
+                {
+                "id" : "bassano",
+                "title" : "Bassano",
+                "desc" : "La città di Bassano del Grappa, la sua storia ed i suoi locali ed i suoi paesaggi",
+                "section" : [
+                    {
+                        "id":"grappa",
+                        "menu" : "Le musée de la grappa",
+                        "title": "Le musée de la grappa Poli et sa distillerie",
+                        "desc": "La distillerie de l’alcool iconique, le grappa, ouvre ses portes aux visiteurs avec un joli petit musée que l’on peut visiter tous les jours de 9h à 19h30. Le tarif est de 3 euros, comprenant la visite du musée et de la distillerie, ainsi qu’une dégustation de cinq alcools différents. Jetez-y un coup d’œil ici :",
+                        "link": "https://www.poligrappa.com/ita/geografia/poli-museo-grappa-bassano.php",
+                        "img" : ["/images/poli.jpg", "/images/poli2.jpg"]
+                    },
+                    {
+                        "id":"museum",
+                        "menu": "Le musée municipal",
+                        "title": "Le musée de Bassano del Grappa (il museo civico di Bassano)",
+                        "desc": "c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
+                        "link": "http://www.museibassano.it/sedi/museo-civico",
+                        "img" : ["/images/chiostro.jpg", "/images/museum2.jpg"]
+                    },
+                    {
+                        "id": "historic-town",
+                        "menu":"La petite ville",
+                        "title":"Promenades dans la petite ville",
+                        "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes.",
+                        "img" : ["/images/bassano-ville.jpg", "/images/bassano-ville2.jpg","/images/bassano-ville3.jpg"]
+                    },
+                    {
+                        "id":"food",
+                        "title":"Restaurants et bonnes adresses",
+                        "menu":"Restaurants et bonnes adresses",
+                        "subtree": true,
+                        "subsection": [
+                            {
+                                "id": "telefono",
+                                "menu":"Al Telefono (Pizzeria)",
+                                "title":"Pizzeria al Telefono",
+                                "desc":"(un peu loin du centre – à 10 min en voiture/taxi): nichée en haut des collines de Bassano, cette pizzeria est littéralement la meilleure du monde entier (non non, on n’exagère pas !). Les pizzas sont typiques du nord de l’Italie avec une pâte très fine. Son cadre est également magnifique puisqu’elle surplombe la ville. Le prix des pizzas oscille entre 6 et 12 euros, et l’endroit est très convivial. Jetez-y un coup d’œil ici ",
+                                "link": "https://www.tripadvisor.fr/Restaurant_Review-g194685-d4228369-Reviews-Pizzeria_Al_Telefono-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html ",
+                                "img" : ["/images/pizzeriatelefono1.jpg","/images/pizzeriatelefono2.jpg"]
+                            },
+                            {
+                                "id": "samsara",
+                                "menu":"Il Samsara (Pub)",
+                                "title":"Il Samsara",
+                                "desc":"si vous souhaitez simplement boire une bière, grignoter un panino sur le pouce et vous retrouver dans un bar chaleureux et convivial, le samsara est l’endroit qu’il vous faut ! Avec des grandes tables dehors, des tables en bois style taverne et des banquettes avec des coussins à l’intérieur, rien de tel qu’un verre dans ce bar pour se retrouver entre amis ! Jetez-y un coup d’œil ici :",
+                                "link" : "https://www.tripadvisor.fr/Restaurant_Review-g194685-d3485892-Reviews-Samsara-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html ",
+                                "img" : ["/images/samsara1.jpg","/images/samsara2.jpg"]
+                            },
+                            {
+                                "id": "concadoro",
+                                "menu":"Concadoro (Restaurant)",
+                                "title":"Restaurant Fattoria Sociale Concadoro",
+                                "desc":"(un peu loin du centre – à 10 min en voiture/taxi) : ce restaurant est situé en face des montagnes au milieu du paysage vénitien. Il est tenu par une association d’insertion sociale qui forme et emploie des jeunes atteints de handicap mental. Tous les produits cuisinés dans le restaurant sont cultivés et récoltés dans les terres avoisinantes par ces jeunes. La cuisine et le service sont également effectués par ces jeunes gens qui dorment dans une partie de l’établissement, reconverti en foyer. Le menu change fréquemment en fonction des saisons et des produits récoltés. Les plats sont délicieux et le service est excellent. Il faut compter environ 7-10 euros pour un primo et 12-15 euros pour un secondo. Jetez-y un coup d’œil ici : ",
+                                "link": "http://concadoro.org/?page_id=11",
+                                "img" : ["/images/concadoro2.jpg", "/images/concadoro1.jpg","/images/concadoro3.jpg"]
+                            },
+                            {
+                                "id": "golosita",
+                                "menu":"Golosita (Café)",
+                                "title":"Golosita Café",
+                                "desc":"Pour déguster une « brioche » (attention faux ami ! Il s’agit d’un croissant fourré à la crème, au nutella ou à la confiture !) avec un café au petit dej, nous vous recommandons vivement cet endroit. Les pâtisseries sont excellentes. Vous pouvez également déjeuner ou diner au restaurant à l’étage (il s’agit aussi de notre traiteur de mariage donc évidemment, c’est délicieux !!). La cuisine y est traditionnelle mais revisitée avec de la modernité. Jetez-y un coup d’œil ici :",
+                                "link": "https://www.tripadvisor.fr/Restaurant_Review-g194685-d10037947-Reviews-Golosita-Bassano_Del_Grappa_Province_of_Vicenza_Veneto.html",
+                                "img" : ["/images/golosita1.jpg"]
+                            }
+                            
+                        ] 
+                    }
+                    ]
+                },
+                {
+                "id": "surroundings",
+                "title":"Environs cachés",
+                "desc" : "À l’étranger, quand on pense à la Vénétie, on pense tout de suite à Venise, ses canots, sa place Saint-Marc… Mais en réalité, la Vénétie ne se résume pas simplement aux lions de Venise ! Cette région regorge de villes magnifiques à visiter et de montagnes splendides que nous vous conseillons vivement d’explorer",
+                "section": [
+                    {
+                        "id":"cities",
+                        "title":"Pour les plus citadins",
+                        "menu":"Pour les plus citadins ",
+                        "subtree": true,
+                        "subsection": [
+                            {
+                                "id": "padova",
+                                "menu":"Padue",
+                                "title":"Padue / Padova",
+                                "desc":"(45 minutes en train de Bassano del Grappa / 1h en voiture) : cette ville est la troisième plus grande ville de la Vénétie après Venise et Vérone. Si vous décidez d’y faire un tour, allez visiter la chapelle des Scrovegni dans laquelle se trouvent des fresques incroyables de Giotto. Ne manquez pas non plus la Basilique Saint Antoine, patron de la ville et saint bien connu pour guider ceux qui se sont égarés.",
+                                "img" : ["/images/padova1.jpg","/images/padova2.jpg","/images/padova3.jpg"]
+                            },
+                            {
+                                "id": "treviso",
+                                "menu":"Trévise",
+                                "title":"Trévise / Treviso",
+                                "desc":"(10 minutes en train de Venise/ 20 minutes en voiture de Venise) : Peu connue comparé à Venise, Trévise est sa petite sœur. Cette ville romaine contient des vestiges médiévaux et datant de la Renaissance. Si une grande partie de la ville a été détruite par des bombardements pendant la Seconde guerre mondiale, elle a été reconstruite et demeure une superbe ville à visiter",
+                                "img" : ["/images/treviso1.jpg","/images/treviso2.jpg"]
+                            },
+                            {
+                                "id": "marostica",
+                                "menu":"Marostica",
+                                "title":"Marostica",
+                                "desc":"(15 en voiture ou bus de Bassano) : cité médiévale, la ville est construite au sein d’une enceinte qui relie deux châteaux : le château supérieur et le château inférieur. Cette ville est assez connue en Vénétie pour sa partie d’échec géante qui se déroule tous les deux ans devant le château inférieur avec des personnages vivants habillés en costumes d’époque du XVème siècle.",
+                                "img" : ["/images/marostica1.jpg","/images/marostica2.jpg","/images/marostica3.jpg"]
+                            },
+                            {
+                                "id": "asolo",
+                                "menu":"Asolo",
+                                "title":"Asolo",
+                                "desc":"(25 en voiture ou bus de Bassano) : Asolo est une petite ville splendide, tout en hauteur, que nous vous recommandons vivement de visiter. Pour les férus brocanteurs, cette petite ville vénitienne constitue la capitale italienne des antiquités et des brocantes. Pour preuve, tous les seconds dimanches du mois se tient le grand marché des antiquaires qui s’étale dans toutes les rues de la ville.",
+                                "img" : ["/images/asolo1.jpg","/images/asolo2.jpg"]
+                            },
+                            {
+                                "id": "asiago",
+                                "menu":"Asiago",
+                                "title":"Asiago",
+                                "desc":"Cette ville est située devant un haut plateau de montagnes (l’Alto piano di Asiago). L’on retrace son histoire au Paléolithique et au Mésolithique. Le dialecte cimbre et son folklore datent en revanche des Goths, d’autres populations barbares ainsi que des lombards. Pour ceux qui souhaitent faire des randonnées en montagne sur l’Alto piano di Asiago (voir plus bas pour plus d’informations !), cette ville peut être la parfaite halte ou point de chute. ",
+                                "img" : ["/images/asiago1.jpg","/images/asiago2.jpg"]
+                            }
+
+                        ]
+                    },
+                    {
+                        "id":"nature",
+                        "title":"Pour les marcheurs, randonneurs ou amateurs des campagnes verdoyantes",
+                        "menu":"Pour les amateurs des campagnes",
+                        "subtree": true,
+                        "subsection": []
+                    }
+                ]
+                }
+            ]
     }
 }

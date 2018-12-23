@@ -193,16 +193,16 @@
     "turistic_info" : {
         "menu-nav" : "Menu de Navigation",
         "home-link" : "Page Principale",
-        "intro1" : "La zona intorno a Bassano offre molte possibilità da esplorare. Ovvie destinazioni sono [b] Venezia [/b] o, per gli amanti della natura, [b] le Dolomiti [/b]. Ma non solo: tutta l'area intorno a Bassano offre cose belle da scoprire.",
-        "intro2" : "Se volete fermarvi qualche giorno in più, abbiamo preparato qualche consiglio per inspirarvi e condividere con voi una parte della nostra storia.",
-        "home" : "Per vedere i nostri consigli, cliccate qui:",
-        "link" : "Vai alle informazioni",
-        "intro3" : "Qui sotto trovate i nostri consigli, divisi tra",    
+        "intro1" : "Les alentours de Bassano offrent de nombreux point de vue à explorer. Les destinations connues sont [b] Venise [/b] ou, pour les amoureux de la nature, [b] les Dolomites [/b]. Mais pas seulement: toute la zone de Bassano présente de nombreux paysages à découvrir.",
+        "intro2" : "Si vous souhaitez vous arrêter quelques jours en plus, nous avons préparé quelques conseils pour vous donner de l'inspiration et pour partager avec vous quelques pièces importantes de notre histoire :).",
+        "home" : "Pour voir nos conseils, cliquez ici:",
+        "link" : "Voir les informations",
+        "intro3" : "Ci-dessous, nos conseils répartis comme suit",    
         "block" : [
                 {
                 "id" : "bassano",
                 "title" : "Bassano",
-                "desc" : "La città di Bassano del Grappa, la sua storia ed i suoi locali ed i suoi paesaggi",
+                "desc" : "La ville de Bassano del Grappa, son histoire, ses bonnes adresses et ses promenades",
                 "section" : [
                     {
                         "id":"grappa",
@@ -216,7 +216,7 @@
                         "id":"museum",
                         "menu": "Le musée municipal",
                         "title": "Le musée de Bassano del Grappa (il museo civico di Bassano)",
-                        "desc": "c’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
+                        "desc": "C’est dans le jardin du musée que se déroulera la cérémonie ! Tant pour son architecture que pour sa collection impressionnante d’œuvres de Jacopo Dal Ponte (dit Jacopo Bassano), ce musée de peintures et de sculptures contribue à la richesse de la Vénétie. Né en 1510 et mort en 1592, Jacopo Bassano est un peintre maniériste de l’école vénitienne qui porte ce nom parce qu’il est né à Bassano del Grappa. Il s’agit d’ailleurs d’un des plus anciens musées de la Vénétie. Jetez-y un coup d’œil ici:",
                         "link": "http://www.museibassano.it/sedi/museo-civico",
                         "img" : ["/images/chiostro.jpg", "/images/museum2.jpg"]
                     },
@@ -224,13 +224,14 @@
                         "id": "historic-town",
                         "menu":"La petite ville",
                         "title":"Promenades dans la petite ville",
-                        "desc":" si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes.",
+                        "desc":"Si vous avez un peu de temps, nous vous conseillons de prendre quelques heures pour vous promener dans les ruelles de la ville. Le vieux pont de la ville (il ponte vecchio) offre un point de vue superbe sur la montagne du Monte grappa. Baladez-vous également le long de la Brenta, le fleuve qui traverse Bassano. Ces paysages illustrent parfaitement la richesse de la Vénétie, entre terres et montagnes.",
                         "img" : ["/images/bassano-ville.jpg", "/images/bassano-ville2.jpg","/images/bassano-ville3.jpg"]
                     },
                     {
                         "id":"food",
                         "title":"Restaurants et bonnes adresses",
                         "menu":"Restaurants et bonnes adresses",
+                        "desc" : "Voici quelques bonnes adresses, des endroits que nous aimons bien et qui ont fait notre histoire...",
                         "subtree": true,
                         "subsection": [
                             {
@@ -278,7 +279,8 @@
                     {
                         "id":"cities",
                         "title":"Pour les plus citadins",
-                        "menu":"Pour les plus citadins ",
+                        "menu":"Pour les plus citadins",
+                        "desc" : "Voici quelques villes dans lesquelles nous aimons beaucoup faire un tour, découvrez les!",
                         "subtree": true,
                         "subsection": [
                             {
@@ -318,13 +320,6 @@
                             }
 
                         ]
-                    },
-                    {
-                        "id":"nature",
-                        "title":"Pour les marcheurs, randonneurs ou amateurs de campagnes verdoyantes",
-                        "menu":"Pour les amateurs de campagnes",
-                        "subtree": true,
-                        "subsection": []
                     }
                 ]
                 }
