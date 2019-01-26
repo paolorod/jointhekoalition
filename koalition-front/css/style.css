@@ -139,6 +139,10 @@ footer.page-footer {
   transform: rotate(353deg);
 } 
 
+.rotate_l9 {
+  transform: rotate(351deg);
+} 
+
 .rotate_r1 {
   transform: rotate(5deg);
 }
