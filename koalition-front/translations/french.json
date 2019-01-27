@@ -327,10 +327,10 @@
     },
 
     "wedding_list" : {
-        "subtitle": "Un aller et un retour, ou l'odyssée d'un hobbit",
-        "par1": "Pour, la chose plus importante est de celebrer notre marriage avec vous, notre petit village \"virtuel\" distribuée autour du monde.",
-        "par2": "Nous nous avons pas faite une liste de mariage traditionelle, mais si vous voulez nous faire un cadeau, ici c'est le bon androit.",
+        "subtitle": "Un aller et un retour , ou l' odyssée d' un hobbit",
+        "par1": "Pour nous, la chose la plus importante est de célébrer notre marriage avec vous, notre petit village \"virtuel\" réparti autour du monde.",
+        "par2": "Nous n'avons pas fait une liste de mariage traditionelle, mais si vous voulez nous faire un petit cadeau, ici c'est le bon endroit.",
         "par3": "Une des choses qui nous unit est la passion pour la découverte de nouvelles cultures, pays, langues et cuisines. Pour notre mariage, nous aimerions beaucoup voyager en Nouvelle-Zélande. Si vous souhaitez contribuer à ce voyage, nous vous serions éternellement reconnaissants!",
-        "button": "Contribuet au voyage"
+        "button": "Contribuer au voyage"
     }
 }

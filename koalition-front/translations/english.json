@@ -189,5 +189,13 @@
         "confirmation_message" : "Are you sure? :-)",
         "return": "Home page ",
         "reset" : "Reset"
+    },
+
+    "wedding_list" : {
+        "subtitle": "There and back again , a Hobbit ' s tale",
+        "par1": "For us, the most important thing is to celebrate our wedding with you, our small \"virtual\" village spread across the globe.",
+        "par2": "We didn't do a traditional wedding list, but if you want to make us a small gift, here is the place.",
+        "par3": "One of the things that brings us together is the passion to discover new cultures, countries, languages and cuisine. For our wedding, we would like to travel to New Zealand. If you feel like chipping in, we would be eternally greatful!",
+        "button": "Chip in the journey"
     }
 }
