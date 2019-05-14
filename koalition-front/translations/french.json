@@ -92,21 +92,7 @@
         "by_plane" : {
             "title": "En avion",
             "desc": "L'aéroport duquel nous vous conseillons d'attérrir est celui de [b]Venise[/b], depuis lequel il est facile de rejoindre Bassano en train. Pour ceux qui arrivent le vendredi, nous nous organisons pour faire en sorte qu'il y ait une personne à l'aéroport pour vous accueillir et vous guider.",
-            "connection_label":  "Liaisons", 
-            "airlines_label": "Compagnies conseillées", 
-            "aereoport":  {
-                "name": "Venise",
-                "connection": "Bus direct de l'aéroport à la gare de Venise (airbus direction Venezia Mestre), puis train direct de la gare de Venise jusqu'à Bassano del Grappa",
-                "airlines":  "Easyjet, Vueling, AirFrance",
-                "url": "https://www.veniceairport.it/"
-            },
-            "other_aereoports": [{
-                "name": "Venise Trévise / Trévise Saint'Angelo (TSF)", 
-                "connections": "Bus jusqu'à la gare ferroviaire (Treviso Centrale), puis train jusqu'à Bassano del Grappa (un ou deux changements)",
-                "airlines": "Ryanair, Easyjet",
-                "url": "https://www.trevisoairport.it/"
-            }
-        ]
+            "connection": "Pour venir à Bassano avec les transports: bus direct de l'aéroport à la gare de Venise Mestre (airbus direction Venezia Mestre Stazione - ligne 25 Airport Express sur [a]http://www.atvo.it/it-venice-airport.html[/a] ), puis train direct de la gare de Venise jusqu'à Bassano del Grappa (TER sans besoin de resever - info sur [a]https://www.trenitalia.com/fr.html[/a] en selectionant \"Venezia Mestre\" et \"Bassan del Grappa\")"        
         },
         "by_train" : {
             "title": "En train",
